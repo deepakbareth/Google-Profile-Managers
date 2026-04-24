@@ -12,7 +12,7 @@ const BannerImage = () => {
         <img 
           src={mockupImage} 
           alt="Google Maps Search Results Mockup on Smartphone"
-          className="relative z-10 w-full h-auto object-contain transition-transform duration-300 group-hover:rotate-1 group-hover:scale-[1.01]"
+          className="relative z-10 w-full h-auto object-contain transition-transform duration-300  "
         />
       </div>
     </div>

@@ -21,7 +21,7 @@ const FeatureText = () => {
       <div className="pt-4 flex justify-center items-center lg:justify-start">
         <a 
           href="#" 
-          className=" px-10 py-4 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-[#073859] hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+          className=" px-10 py-4 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
         >
           See How We Help
         </a>

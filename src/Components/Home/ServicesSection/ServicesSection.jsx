@@ -45,9 +45,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    // We use a deep, premium slate/blue background here
-    <section className="relative py-14 lg:py-12  bg-gray-100 overflow-hidden font-sans"
-    >
+    <section className="relative py-14 lg:py-12 bg-gray-100 overflow-hidden font-sans">
       
       {/* Optional: Subtle background glows for depth */}
       
@@ -56,19 +54,39 @@ const ServicesSection = () => {
         {/* Child 1: The Heading */}
         <SectionHeading />
 
-        {/* The Grid Layout for the Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-8">
+        {/* ==========================================
+            HYBRID LAYOUT: Mobile Slider + Desktop Grid
+            ========================================== */}
+        <div className="relative mt-8">
           
-          {/* Child 2: Mapping over the data to render Service Cards */}
-          {servicesData.map((service, index) => (
-            <ServiceCard 
-              key={index}
-              title={service.title}
-              description={service.description}
-              buttonText={service.buttonText}
-            />
-          ))}
+          {/* Hide Scrollbar styling */}
+          <style>{`
+            .hide-scrollbar::-webkit-scrollbar { display: none; }
+            .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+          `}</style>
 
+          {/* - MOBILE: flex, overflow-x-auto, snap-x (Creates the swipeable slider)
+            - TABLET/DESKTOP: md:grid, md:overflow-visible, md:grid-cols-2 xl:grid-cols-4 (Reverts to grid)
+          */}
+          <div className="flex md:grid overflow-x-auto md:overflow-visible snap-x snap-mandatory md:snap-none flex-nowrap md:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-6 lg:gap-8 pb-6 md:pb-0 hide-scrollbar scroll-smooth items-stretch">
+            
+            {/* Child 2: Mapping over the data to render Service Cards */}
+            {servicesData.map((service, index) => (
+              <div 
+                key={index}
+                // MOBILE: w-[85vw] makes it slightly smaller than the screen so the next card peeks in
+                // DESKTOP: w-auto fills the grid column
+                className="flex-none w-[85vw] sm:w-[320px] md:w-auto snap-center md:snap-align-none"
+              >
+                <ServiceCard 
+                  title={service.title}
+                  description={service.description}
+                  buttonText={service.buttonText}
+                />
+              </div>
+            ))}
+
+          </div>
         </div>
       </div>
     </section>

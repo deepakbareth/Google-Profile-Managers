@@ -15,7 +15,7 @@ const LogoMarquee = () => {
   ];
 
   return (
-    <div className="mt-10 pt-8 border-t border-gray-100 overflow-hidden w-full relative">
+    <div className="mt-3 md:mt-10 md:pt-8 border-t border-gray-100 overflow-hidden w-full relative">
       
       {/* "FEATURED ON" Tag */}
       <div className="flex flex-col items-center gap-3 mb-6">

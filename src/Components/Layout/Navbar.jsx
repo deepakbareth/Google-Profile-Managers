@@ -48,14 +48,14 @@ const Navbar = () => {
             <img 
               src={logo} 
               alt="Google Business Profile Managers" 
-              className="h-10 w-auto object-contain" 
+              className="h-8 md:h-12 w-auto object-contain" 
             />
           </div>
 
           {/* ==============================
               BOX 2: NAVIGATION LINKS (Desktop Only)
               ============================== */}
-          <div className="hidden lg:flex bg-slate-500 shadow-sm border border-slate-200 rounded-full p-1.5 items-center justify-center">
+          <div className="hidden lg:flex bg-gray-900 shadow-sm border border-slate-200 rounded-full p-3 items-center justify-center">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -83,7 +83,7 @@ const Navbar = () => {
           {/* ==============================
               BOX 3: PHONE NUMBER (Desktop Only)
               ============================== */}
-          <div className="hidden lg:flex bg-white/95 backdrop-blur-md shadow-sm border border-gray-100 rounded-full px-6 py-2.5 items-center">
+          <div className="hidden lg:flex bg-white/95 backdrop-blur-md shadow-sm border border-gray-100 rounded-full px-6 py-4 items-center">
             <a 
               href="tel:+13158981412" 
               className="flex items-center gap-2 text-slate-800 font-bold text-sm tracking-wide hover:text-[#4a3b69] transition-colors"

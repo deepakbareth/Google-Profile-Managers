@@ -63,7 +63,7 @@ const Navbar = () => {
           className={`mx-auto bg-white flex items-center justify-between border border-gray-200 transition-all duration-500 ease-in-out ${
             isScrolled 
               ? 'w-full max-w-full rounded-none px-4 sm:px-8 py-4 lg:px-12 shadow-sm border-x-0 border-t-0' 
-              : 'max-w-[80rem] rounded-full px-4 sm:px-6 py-2 md:py-5 shadow-md'
+              : 'max-w-[80rem] rounded-full px-4 sm:px-6 py-2 md:py-3 shadow-md'
           }`}
         >
           
@@ -118,7 +118,7 @@ const Navbar = () => {
           </div>
             <a 
               href="tel:+13158981412" 
-              className={`flex items-center gap-2 bg-[#facc15] hover:bg-[#eab308] text-[#1e293b] px-7 rounded-full font-bold shadow-sm transition-all duration-200 hover:-translate-y-0.5 whitespace-nowrap ${
+              className={`flex items-center gap-2 bg-blue-700 hover:bg-[#eab308] text-white px-7 rounded-full font-bold shadow-sm transition-all duration-200 hover:-translate-y-0.5 whitespace-nowrap ${
                 isScrolled ? 'py-2.5 text-[14px]' : 'py-3 text-[14px]'
               }`}
             >
