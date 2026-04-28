@@ -13,13 +13,13 @@ function Home(){
     return(
         <>
         {/* <Navbar /> */}
-        <Navbar2 />
+        {/* <Navbar2 /> */}
         <Banner />
         {/* <Banner2 /> */}    
        <FeatureSection />
        <ServicesSection />
        <TestimonialsSection />
-       <Footer />
+       {/* <Footer /> */}
         </>
     )
 }

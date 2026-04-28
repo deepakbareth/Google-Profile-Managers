@@ -2,8 +2,7 @@ import React from 'react';
 
 const ServiceCard = ({ title, description, buttonText }) => {
   return (
-    <div className="flex flex-col h-full bg-blue-400 backdrop-blur-md rounded-xl p-8 transition-all duration-300 hover:-translate-y-2 hover:bg-blue-400 hover:border-white/20 hover:shadow-[0_20px_40px_rgba(0,0,0,0.2)]">
-      
+    <div className="flex flex-col h-full bg-blue-400 backdrop-blur-md rounded-xl p-8 transition-all duration-300 md:hover:-translate-y-2 md:hover:bg-blue-400 md:hover:border-white/20 md:hover:shadow-[0_20px_40px_rgba(0,0,0,0.2)]">  
       {/* Title */}
       <h3 className="text-2xl font-bold text-blue-900 mb-4 leading-snug">
         {title}

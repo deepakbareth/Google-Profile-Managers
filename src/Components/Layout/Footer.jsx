@@ -11,7 +11,7 @@ const Footer = () => {
           {/* LEFT COLUMN (Takes up more space) */}
           <div className="lg:col-span-7 xl:col-span-8 flex flex-col items-start">
             <h2 className="text-3xl sm:text-4xl font-bold text-white leading-tight tracking-tight mb-6 max-w-2xl">
-              Google Profile Managers is The Master of Local Search 🌴
+              Google Profile Managers is The Master of Local Search 
             </h2>
             
             <p className="text-slate-300 text-[17px] leading-relaxed mb-10 max-w-2xl font-medium">
@@ -80,7 +80,7 @@ const Footer = () => {
         {/* Bottom Divider and Copyright */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-400 text-[15px] font-medium">
-            © Google Profile Managers, 2023
+            © Google Profile Managers, 2026
           </p>
         </div>
 
