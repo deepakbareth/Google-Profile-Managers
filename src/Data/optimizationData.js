@@ -14,7 +14,8 @@ export const optimizationData = {
     subtitle: "Maximize your visibility, rank higher in local search results, and turn more searchers into paying customers with our expert profile optimization."
   },
   hero: {
-    title: "Dominate with Google Business Profile Optimization from the Master of Local Search. Only $99 per Profile.",
+    title: "Dominate with Google Business Profile Optimization from the Master of Local Search. ",
+    titleHighlight:"Only $99 per Profile.",
     italicSubtitle: "Do you want your Google Business Profile listing to rank higher than your competitors? Then our Google Business Profile Optimization Service is the exact solution you need.",
     paragraphs: [
       "The Google Business Profile Optimization Service is designed for those who already have a Google Business Profile Managers listing, but aren't 100% sure they're doing everything to maximize their results.",
