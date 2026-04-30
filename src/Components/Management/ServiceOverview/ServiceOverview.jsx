@@ -30,7 +30,7 @@ const ServiceOverview = () => {
         {/* ==========================================
             HEADER & INTRO (Centered & Readable)
             ========================================== */}
-        <div className="max-w-4xl mx-auto text-center mb-16 lg:mb-24">
+        <div className="max-w-7xl mx-auto text-center mb-16 lg:mb-24">
           <h2 className="text-2xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-600 leading-tight tracking-tight mb-8">
             Google Business Profile Management Service Overview
           </h2>
