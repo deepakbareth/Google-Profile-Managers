@@ -46,9 +46,8 @@ const Navbar = () => {
           MOBILE BLUR OVERLAY
           ============================== */}
       <div
-        className={`fixed inset-0 z-40 bg-slate-900/40 backdrop-blur-sm transition-all duration-300 xl:hidden ${
-          isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-        }`}
+        className={`fixed inset-0 z-40 bg-slate-900/40 backdrop-blur-sm transition-all duration-300 xl:hidden ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+          }`}
         onClick={() => setIsMobileMenuOpen(false)}
       />
 
@@ -56,16 +55,14 @@ const Navbar = () => {
           MAIN NAVBAR WRAPPER
           ============================== */}
       <div
-        className={`fixed left-0 right-0 z-50 font-sans transition-all duration-500 ease-in-out ${
-          isScrolled ? 'top-0 px-0' : 'top-4 px-4 sm:px-6 lg:px-8'
-        }`}
+        className={`fixed left-0 right-0 z-50 font-sans transition-all duration-500 ease-in-out ${isScrolled ? 'top-0 px-0' : 'top-4 px-4 sm:px-6 lg:px-8'
+          }`}
       >
         <div
-          className={`mx-auto bg-white flex items-center justify-between border border-gray-200 transition-all duration-500 ease-in-out ${
-            isScrolled
-              ? 'w-full max-w-full rounded-none px-4 sm:px-8 py-4 lg:px-12 shadow-sm border-x-0 border-t-0'
-              : 'max-w-[80rem] rounded-full px-4 sm:px-6 py-2 md:py-3 shadow-md'
-          }`}
+          className={`mx-auto bg-white flex items-center justify-between border border-gray-200 transition-all duration-500 ease-in-out ${isScrolled
+            ? 'w-full max-w-full rounded-none px-4 sm:px-8 py-4 lg:px-12 shadow-sm border-x-0 border-t-0'
+            : 'max-w-[80rem] rounded-full px-4 sm:px-6 py-2 md:py-3 shadow-md'
+            }`}
         >
           {/* ==============================
               1. LEFT: LOGO SECTION
@@ -75,9 +72,8 @@ const Navbar = () => {
               <img
                 src={logo}
                 alt="Google Business Profile Managers"
-                className={`w-auto object-contain cursor-pointer transition-all duration-500 ${
-                  isScrolled ? 'h-10 sm:h-12' : 'h-12 sm:h-14'
-                }`}
+                className={`w-auto object-contain cursor-pointer transition-all duration-500 ${isScrolled ? 'h-10 sm:h-12' : 'h-12 sm:h-14'
+                  }`}
               />
             </Link>
           </div>
@@ -117,26 +113,26 @@ const Navbar = () => {
                 </button>
 
                 <div className="absolute left-1/2 -translate-x-1/2 mt-4 w-48 bg-white border border-gray-100 rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 overflow-hidden">
-                  <a
-                    href="/googleprofilemanagers/contact-us"
+
+                  <Link
+                    to="/googleprofilemanagers/contact-us"
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className={`block px-4 py-2 text-sm font-bold transition-colors ${
-                      location.hash === '#contact-us'
-                        ? 'text-blue-700'
-                        : 'text-gray-500 hover:text-gray-600 hover:bg-gray-50'
-                    }`}
+                    className={`block px-4 py-2 text-sm font-bold transition-colors ${location.pathname === '/googleprofilemanagers/contact-us' // <-- Changed this line
+                      ? 'text-blue-700'
+                      : 'text-gray-500 hover:text-gray-600 hover:bg-gray-50'
+                      }`}
                   >
                     Contact Us
-                  </a>
+                  </Link>
+
                 </div>
               </div>
             </div>
 
             <a
               href="tel:+13158981412"
-              className={`flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white px-7 rounded-full font-bold shadow-sm transition-all duration-200 hover:-translate-y-0.5 whitespace-nowrap ${
-                isScrolled ? 'py-2.5 text-[14px]' : 'py-3 text-[14px]'
-              }`}
+              className={`flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white px-7 rounded-full font-bold shadow-sm transition-all duration-200 hover:-translate-y-0.5 whitespace-nowrap ${isScrolled ? 'py-2.5 text-[14px]' : 'py-3 text-[14px]'
+                }`}
             >
               +1 315 898 1412
             </a>
@@ -165,11 +161,10 @@ const Navbar = () => {
             MOBILE NAVIGATION DROPDOWN
             ============================== */}
         <div
-          className={`xl:hidden transition-all duration-300 ease-in-out origin-top max-w-[95rem] mx-auto ${
-            isMobileMenuOpen
-              ? 'opacity-100 translate-y-0 scale-100 pointer-events-auto mt-3'
-              : 'opacity-0 -translate-y-4 scale-95 pointer-events-none absolute w-full'
-          }`}
+          className={`xl:hidden transition-all duration-300 ease-in-out origin-top max-w-[95rem] mx-auto ${isMobileMenuOpen
+            ? 'opacity-100 translate-y-0 scale-100 pointer-events-auto mt-3'
+            : 'opacity-0 -translate-y-4 scale-95 pointer-events-none absolute w-full'
+            }`}
         >
           <div className="bg-white/95 backdrop-blur-xl shadow-2xl rounded-3xl p-5 flex flex-col space-y-2 border border-gray-100 mx-4">
             {navLinks.map((link) => {
@@ -219,17 +214,18 @@ const Navbar = () => {
                 </svg>
               </button>
               <div className={`pl-4 overflow-hidden transition-all duration-200 ${isMobileMoreOpen ? 'max-h-40 opacity-100 mt-1' : 'max-h-0 opacity-0'}`}>
-                <a
-                  href="/googleprofilemanagers/contact-us"
+
+                <Link
+                  to="/googleprofilemanagers/contact-us"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`block px-4 py-2 text-sm font-bold transition-colors ${
-                    location.hash === '#contact-us'
+                  className={`block px-4 py-2 text-sm font-bold transition-colors ${location.pathname === '/googleprofilemanagers/contact-us' // <-- Changed this line
                       ? 'text-blue-700'
                       : 'text-gray-800 hover:text-gray-600 hover:bg-gray-50'
-                  }`}
+                    }`}
                 >
                   Contact Us
-                </a>
+                </Link>
+
               </div>
             </div>
 
