@@ -1,5 +1,10 @@
 import setupHeroImg from '../assets/setupPage/setupHeroImg.png'
 import setupOverviewImg from '../assets/setupPage/setupOverviewImg.png'
+import connorImg from '../assets/setupPage/connorImg.png'
+import justinImg from '../assets/setupPage/justinImg.png'
+import managementImg from '../assets/globle/management.png'
+import optimizationImg from '../assets/globle/optimization.png'
+import supportImg from '../assets/globle/support.png'
 
 
 
@@ -69,4 +74,95 @@ hero: {
       }
     ]
   },
+
+  // SETUP PAGE TESTIMONIALS DATA
+  testimonials: {
+    title: "What customers say about Google Business Profile Setup",
+    items: [
+      {
+        image: connorImg, // Make sure to import this image at the top of your file
+        quote: "We got calls the week after Google Profile Managers set up our Google Business Profile listing and five years later the calls haven't stopped.",
+        author: "– Connor Kolb, WNY Snow Removal"
+      },
+      {
+        image: justinImg, // Make sure to import this image at the top of your file
+        quote: "Google accidentally marked one of our listings as a duplicate, and within 2 days Google Profile Managers had it showing up again.",
+        author: "– Justin Wekenmann, Odyssey Telecommunications"
+      }
+    ]
+  },
+
+  // SETUP PAGE FAQS DATA
+  faqs: {
+    title: "Google Business Profile Setup Service FAQs",
+    items: [
+      {
+        question: "Can't I just set up my own Google Business Profile listing?",
+        answer: "Yes, of course! You could set up your own LLC and accounting records, too. But you most likely leave these things to the experts, right? Much like your lawyer and account, we are experts at what we do – which is why we're at the top of the digital food chain! When it comes to setting up Google Business Profile listings, we use our brains and brawn to create great listings that perform."
+      },
+      {
+        question: "How long does it take to setup my Google Business Profile listing?",
+        answer: "In general, we can get your listing verified and set up within 2-4 weeks of receiving your listing information. If you have multiple listings, the total time frame may be longer. However, the Google Profile Managers has the ability to bulk verify. This really speeds up the process for multi-location organizations looking to get a convenient and competitive start on Google Business Profile."
+      },
+      {
+        question: "Who will be setting up my Google Business Profile listing?",
+        answer: "Your Google Business Profile listing will be set up by your account manager, who is Business Profile expert. Your account manager will work with our copywriters and designers to ensure that you have an accurate profile that properly represents your business."
+      },
+      {
+        question: "Does this service guarantee I will get results?",
+        answer: "We would love to say that simply having a Google Business Profile listing setup will drive you a life changing amount of business. Unfortunately, with Google Business Profile, like most things in life, you get out what you put in. While having a Google Business Profile listing will help, you should consider ongoing management and promotion in order to get the most out of your presence."
+      },
+      {
+        question: "Who is responsible for approving content, edits, posts, etc?",
+        answer: "We have two ways of handling this. The first options is you can request manual review of all content, edits, posts, etc. With this option we will send you the recommended changes, and then await your confirmation before implementing. The second option is to auto-approve based on the Account Manager's professional experience. Most customers choose to auto-approve. With either option, our team is responsible for content, edits, and Q&A's."
+      }
+    ]
+  },
+
+  // NEW OTHER SERVICES DATA ADDED HERE
+  otherServices: {
+    title: "Other Google Business Profile Services",
+    items: [
+      {
+        image: managementImg, // Replace with your actual imported variable
+        title: "Google Profile Management",
+        price: "$99",
+        unit: "PER MONTH",
+        paragraphs: [
+          "Our Google Business Profile Management Service gives you a hands off solution for generating greater visibility and more business from your Google Profile Managers listing.",
+          "This monthly recurring service is built to ensure that your listing is not only enhanced and optimized, but a powerful tool for promoting your business. Features include new posts weekly, adding and responding to QA, requesting and responding to reviews, uploading photos and videos, as well as updating information as it changes.",
+          "Complete with a dedicated Google Profile Managers account manager and monthly reporting, we'll even fight spammy profiles in your area making this the most complete Google Profile Managers Management Service ever!"
+        ],
+        bottomLinkText: "Google Business Profile Management Service",
+        bottomLinkUrl: "/googleprofilemanagers/management"
+      },
+      {
+        image: optimizationImg, // Make sure to import your optimization image at the top!
+        title: "Google Profile Optimization",
+        price: "$99",
+        unit: "PER PROFILE",
+        paragraphs: [
+          "Our Google Business Profile Optimization Service is ideal if you already have a Google Profile Managers listing, but you aren't 100% sure if you're doing everything you can to maximize your results.",
+          "Instead of spending months researching best practices, and weeks trying to implement those ideas, our Google Business Profiles Optimization Service can get you expert-level results without all the effort.",
+          "With this service you will work directly with one of our Google Profile Managers experts who will audit your existing listing, and then lead the implementation of an action plan designed to bring your listing to the top of the local pack."
+        ],
+        bottomLinkText: "Google Business Profile Optimization Service",
+        bottomLinkUrl: "/googleprofilemanagers/optimization"
+      },
+      {
+        image: supportImg, // Replace with your actual imported variable
+        title: "Google Business Profile Support",
+        price: "$99",
+        unit: "PER INCIDENT",
+        paragraphs: [
+          "Have a pressing issue or problem with your Google Profile Managers listing and need help getting it resolved?",
+          "Well, then you've come to the right service for you. Let the experts at Google Profile Managers get you through the darkest parts of the digital jungle! 🌴",
+          "Our Google Business Profile Support Service is designed to help you when you have a problem that you can't figure out or get an answer from Google.",
+          "Our Google Profile Managers expert work with Google Business Profile representatives every day and can help you successfully navigate the system to get the resolution you need."
+        ],
+        bottomLinkText: "Google Business Profile Support Service",
+        bottomLinkUrl: "/googleprofilemanagers/support"
+      }
+    ]
+  }
 }
