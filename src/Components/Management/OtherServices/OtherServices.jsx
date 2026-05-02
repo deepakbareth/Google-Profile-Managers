@@ -20,7 +20,7 @@ const OtherServices = () => {
         "With this service you will work directly with one of our Google Profile Managers experts who will audit your existing listing, and then lead the implementation of an action plan designed to bring your listing to the top of the local pack."
       ],
       bottomLinkText: "Google Business Profile Optimization Service",
-      bottomLinkUrl: "#optimization"
+      bottomLinkUrl: "optimization"
     },
     {
       image: setupImg,
@@ -34,7 +34,7 @@ const OtherServices = () => {
         "Let the Google Profile Managers use his brain and braun to make setting up your Google Profile Managers profile easy!"
       ],
       bottomLinkText: "Google Business Profile Setup Service",
-      bottomLinkUrl: "#setup"
+      bottomLinkUrl: "setup"
     },
     {
       image: supportImg,
@@ -48,7 +48,7 @@ const OtherServices = () => {
         "Our Google Profile Managers expert work with Google Business Profile representatives every day and can help you successfully navigate the system to get the resolution you need."
       ],
       bottomLinkText: "Google Business Profile Support Service",
-      bottomLinkUrl: "#support"
+      bottomLinkUrl: "support"
     }
   ];
 

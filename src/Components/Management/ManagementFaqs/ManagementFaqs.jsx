@@ -10,11 +10,11 @@ const ManagementFaqs = () => {
     },
     {
       question: "How much does this service cost every month?",
-      answer: <>We charge $250 per month, per location. We do offer special pricing for those who have more than one location under management. <a href="#contact" className="text-blue-500 hover:text-blue-700 transition-colors">Please contact us for more information.</a></>
+      answer: <>We charge $250 per month, per location. We do offer special pricing for those who have more than one location under management. <a href="contact-us" className="text-blue-500 hover:text-blue-700 transition-colors">Please contact us for more information.</a></>
     },
     {
       question: "How much does it cost if I have more than one listing?",
-      answer: <>We offer a sliding scale discount for more than one location, up to 50% off. We also offer special discounts for those with listings that may not need unique posts each week. <a href="#contact" className="text-blue-500 hover:text-blue-700 transition-colors">Please contact us for more information.</a></>
+      answer: <>We offer a sliding scale discount for more than one location, up to 50% off. We also offer special discounts for those with listings that may not need unique posts each week. <a href="contact-us" className="text-blue-500 hover:text-blue-700 transition-colors">Please contact us for more information.</a></>
     },
     {
       question: "Who creates the content and images for posts?",

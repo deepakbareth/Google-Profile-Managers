@@ -6,6 +6,11 @@ import Footer from './Components/Layout/Footer'
 import OptimizationPage from './Pages/OptimizationPage'
 import SetupServicePage from './Pages/SeupServicePage'
 import SupportPage from './Pages/SupportPage'
+import WebServicesPage from './Pages/WebServicesPage'
+import ContactUs from './Components/Contect-Us/ContactUs'
+import Home from './Pages/Home'
+import PersonalWebsitePage from './Pages/PersonalWebsitePage'
+import MobileAppPage from './Pages/MobileAppPage'
 
 function App() {
   const navLinks = [
@@ -26,8 +31,12 @@ function App() {
           <Route path="/googleprofilemanagers/optimization" element={<OptimizationPage/>} />
           <Route path="/googleprofilemanagers/setup" element={<SetupServicePage/>} />
           <Route path="/googleprofilemanagers/support" element={<SupportPage/>} />
-          <Route path="/googleprofilemanagers/web-services" element={<Homes />} />
-          <Route path="/googleprofilemanagers/contact-us" element={<Homes />} />
+          {/* <Route path="/googleprofilemanagers/web-services" element={<Home/>} /> */}
+          {/* <Route path="/googleprofilemanagers/contact-us" element={<Home/>} /> */}
+          <Route path="/googleprofilemanagers/web-services" element={<WebServicesPage/>} />
+          <Route path="/googleprofilemanagers/contact-us" element={<ContactUs/>} /> 
+          <Route path="/googleprofilemanagers/personal-website-design" element={<PersonalWebsitePage/>} /> 
+          <Route path="/googleprofilemanagers/mobile-app-development" element={<MobileAppPage/>} /> 
       </Routes>
       <Footer/>
     </>
