@@ -22,7 +22,7 @@ const BannerText = () => {
       <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4 font-sans font-medium text-lg">
         {/* Premium Filled Button */}
         <a 
-          href="#" 
+          href="services" 
           className="inline-flex items-center px-8 py-3.5 bg-blue-700 text-white rounded-xl shadow-md border border-blue-800 transition-all duration-300 hover:bg-blue-800 hover:shadow-lg hover:-translate-y-0.5"
         >
           View GBP Services

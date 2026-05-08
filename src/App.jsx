@@ -11,6 +11,11 @@ import ContactUs from './Components/Contect-Us/ContactUs'
 import Home from './Pages/Home'
 import PersonalWebsitePage from './Pages/PersonalWebsitePage'
 import MobileAppPage from './Pages/MobileAppPage'
+import SoftwareDevelopmentPage from './Pages/SoftwareDevelopmentPage'
+import ErpCrmPage from './Pages/erpCrmPage'
+import DigitalMarketingPage from './Pages/DigitalMarketingPage'
+import SeoPage from './Pages/SeoPage'
+import ServicesPage from './Pages/ServicesPage'
 
 function App() {
   const navLinks = [
@@ -22,23 +27,26 @@ function App() {
   ];
   return (
     <>
- <Navbar2 />
+      <Navbar2 />
 
       <Routes>
 
         <Route path="/googleprofilemanagers/" element={<Homes />} />
-        <Route path="/googleprofilemanagers/management" element={<Management/>} />
-          <Route path="/googleprofilemanagers/optimization" element={<OptimizationPage/>} />
-          <Route path="/googleprofilemanagers/setup" element={<SetupServicePage/>} />
-          <Route path="/googleprofilemanagers/support" element={<SupportPage/>} />
-          {/* <Route path="/googleprofilemanagers/web-services" element={<Home/>} /> */}
-          {/* <Route path="/googleprofilemanagers/contact-us" element={<Home/>} /> */}
-          <Route path="/googleprofilemanagers/web-services" element={<WebServicesPage/>} />
-          <Route path="/googleprofilemanagers/contact-us" element={<ContactUs/>} /> 
-          <Route path="/googleprofilemanagers/personal-website-design" element={<PersonalWebsitePage/>} /> 
-          <Route path="/googleprofilemanagers/mobile-app-development" element={<MobileAppPage/>} /> 
+        <Route path="/googleprofilemanagers/management" element={<Management />} />
+        <Route path="/googleprofilemanagers/optimization" element={<OptimizationPage />} />
+        <Route path="/googleprofilemanagers/setup" element={<SetupServicePage />} />
+        <Route path="/googleprofilemanagers/support" element={<SupportPage />} />
+        <Route path="/googleprofilemanagers/web-services" element={<WebServicesPage />} />
+        <Route path="/googleprofilemanagers/contact-us" element={<ContactUs />} />
+        <Route path="/googleprofilemanagers/personal-website-design" element={<PersonalWebsitePage />} />
+        <Route path="/googleprofilemanagers/mobile-app-development" element={<MobileAppPage />} />
+        <Route path="/googleprofilemanagers/software-development" element={<SoftwareDevelopmentPage />} />
+        <Route path="/googleprofilemanagers/erp-crm" element={<ErpCrmPage />} />
+        <Route path="/googleprofilemanagers/digital-marketing" element={<DigitalMarketingPage />} />
+        <Route path="/googleprofilemanagers/search-engine-optimization" element={<SeoPage />} />
+        <Route path="/googleprofilemanagers/services" element={<ServicesPage />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
 
   )

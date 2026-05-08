@@ -180,8 +180,7 @@ const TestimonialsSection = () => {
         <div className="flex justify-center w-full px-4 sm:px-0 mt-4 md:mt-0">
           <a 
             href="#" 
-            className="w-full sm:w-auto flex justify-center items-center px-8 py-4 bg-transparent border-2 border-cyan-500 text-slate-100 rounded-full font-bold text-sm md:text-xl tracking-wide shadow-lg hover:bg-cyan-500 hover:text-white transition-all duration-300 hover:-translate-y-1 text-center"
-          >
+          className="w-full  sm:w-auto flex justify-center items-center px-8 py-4 bg-transparent border-2 border-cyan-500 text-slate-100 rounded-full font-bold text-sm md:text-xl tracking-wide shadow-lg text-center"   >
             Read More Google Business Profile Managers Reviews
           </a>
         </div>

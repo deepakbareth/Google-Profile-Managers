@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -28,7 +29,7 @@ const Footer = () => {
             
             {/* Premium "Dominate Now!" Button */}
             <a 
-              href="#" 
+              href="contact-us" 
               className="inline-flex justify-center items-center px-8 py-3.5 bg-white/5 border border-white/10 text-white rounded-xl font-bold tracking-wide transition-all duration-300 hover:bg-[#1a6b8f] hover:border-[#1a6b8f] hover:shadow-[0_0_30px_rgba(26,107,143,0.4)] hover:-translate-y-1"
             >
               Dominate Now!
@@ -43,15 +44,15 @@ const Footer = () => {
               Quick Links
             </h4>
             <ul className="space-y-4">
-              {['Home', 'About Us', 'Our Services', 'Pricing', 'Contact Us'].map((link, index) => (
+              {['MANAGEMENT','OPTIMIZATION','SETUP','SUPPORT','WEB-SERVICES','CONTACT-US'].map((link, index) => (
                 <li key={index}>
-                  <a href="#" className="group flex items-center text-slate-400 hover:text-white transition-all duration-300 font-medium text-base">
+                  <Link to={`/googleprofilemanagers/${link.toLocaleLowerCase()}`} className="group flex items-center text-slate-400 hover:text-white transition-all duration-300 font-medium text-base">
                     {/* Animated Arrow on Hover */}
                     <svg className="w-4 h-4 mr-2 opacity-0 -ml-6 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 text-[#36b5cc]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                     {link}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

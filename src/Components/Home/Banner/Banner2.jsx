@@ -35,7 +35,7 @@ const Banner2 = () => {
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-10">
             <a 
-              href="#" 
+              href="services" 
               className="inline-flex justify-center items-center px-8 py-4 bg-[#4a3b69] text-white rounded-full font-bold tracking-wide shadow-md hover:bg-[#382c50] hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
             >
               View GBP Services

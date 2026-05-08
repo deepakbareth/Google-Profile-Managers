@@ -28,28 +28,28 @@ import seoImg from '../../assets/WebServicesPage/seo.jpg';
       title: "Software Development",
       description: "We specialize in highly customized website application development services that include a variety of technology and tools to achieve the desired results and business propositions.",
       linkText: "Read More",
-      linkUrl: "#"
+      linkUrl: "software-development"
     },
     {
       image: erpImg,
       title: "ERP & CRM",
       description: "Enterprise resource planning (ERP) is a process used by companies to manage and integrate the important parts of their businesses.",
       linkText: "Read More",
-      linkUrl: "#"
+      linkUrl: "erp-crm"
     },
     {
       image: digitalImg,
       title: "Digital Marketing",
       description: "It enables you to carry out campaigns for your products and services. It gives a platform to small and medium enterprises the chance to compete against large enterprises.",
       linkText: "Read More",
-      linkUrl: "#"
+      linkUrl: "digital-marketing"
     },
     {
       image: seoImg,
       title: "Search Engine Optimization",
       description: "SEO stands for search engine optimization. It is the way toward getting movement from the \"free,\" \"natural,\" \"publication\" or \"common\" indexed lists on web crawlers. It is cost effective.",
       linkText: "Read More",
-      linkUrl: "#"
+      linkUrl: "search-engine-optimization"
     }
   ]
 };
