@@ -3,7 +3,7 @@ import TestimonialHeading from './TestimonialHeading';
 import TestimonialCard from './TestimonialCard';
 
 // IMPORT YOUR CUSTOMER IMAGES HERE
-import user1 from '../../../assets/TestimonialImages/sara.png'; 
+import user1 from '../../../assets/TestimonialImages/sara.png';
 import user2 from '../../../assets/TestimonialImages/ava.png';
 import user3 from '../../../assets/TestimonialImages/colin.png';
 import user4 from '../../../assets/TestimonialImages/sydney.png';
@@ -41,13 +41,13 @@ const TestimonialsSection = () => {
 
   // Navigation Logic
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => 
+    setCurrentIndex((prevIndex) =>
       prevIndex === testimonialsData.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => 
+    setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? testimonialsData.length - 1 : prevIndex - 1
     );
   };
@@ -60,11 +60,11 @@ const TestimonialsSection = () => {
 
   return (
     <section className="relative py-12 lg:py-14 overflow-hidden font-sans">
-      
+
       {/* ==========================================
           BEAUTIFUL PROFESSIONAL BACKGROUND IMAGE 
           ========================================== */}
-      <div 
+      <div
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ backgroundImage: `url('${bg}')` }}
       >
@@ -74,7 +74,7 @@ const TestimonialsSection = () => {
 
       {/* Main Content Container */}
       <div className="relative z-10 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-        
+
         {/* Child 1: Heading */}
         <TestimonialHeading />
 
@@ -82,9 +82,9 @@ const TestimonialsSection = () => {
             THE CENTERED SLIDER
             ========================================== */}
         <div className="relative w-full flex items-center justify-center min-h-[350px] my-8 md:my-12">
-          
+
           {/* DESKTOP ONLY: Left Arrow */}
-          <button 
+          <button
             onClick={prevSlide}
             className="hidden md:block absolute left-4 z-20 p-2 text-slate-500 hover:text-white transition-colors duration-300"
             aria-label="Previous Testimonial"
@@ -96,7 +96,7 @@ const TestimonialsSection = () => {
 
           {/* Child 2: Active Testimonial Card */}
           <div key={currentIndex} className="w-full">
-            <TestimonialCard 
+            <TestimonialCard
               name={testimonialsData[currentIndex].name}
               title={testimonialsData[currentIndex].title}
               quote={testimonialsData[currentIndex].quote}
@@ -105,7 +105,7 @@ const TestimonialsSection = () => {
           </div>
 
           {/* DESKTOP ONLY: Right Arrow */}
-          <button 
+          <button
             onClick={nextSlide}
             className="hidden md:block absolute right-4 z-20 p-2 text-slate-500 hover:text-white transition-colors duration-300"
             aria-label="Next Testimonial"
@@ -127,9 +127,8 @@ const TestimonialsSection = () => {
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                idx === currentIndex ? 'bg-cyan-400 w-4' : 'bg-slate-600 hover:bg-slate-400'
-              }`}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${idx === currentIndex ? 'bg-cyan-400 w-4' : 'bg-slate-600 hover:bg-slate-400'
+                }`}
               aria-label={`Go to slide ${idx + 1}`}
             />
           ))}
@@ -137,10 +136,10 @@ const TestimonialsSection = () => {
 
         {/* MOBILE ONLY: Glassmorphism Pill Controller (Matches Screenshot 2) */}
         <div className="flex md:hidden items-center justify-between gap-4 bg-white/10 backdrop-blur-md border border-white/10 rounded-full p-2 mb-10 w-fit shadow-xl">
-          
+
           {/* Mobile Left Arrow */}
-          <button 
-            onClick={prevSlide} 
+          <button
+            onClick={prevSlide}
             className="w-10 h-10 rounded-full bg-black/40 flex items-center justify-center text-white hover:bg-black/60 transition-colors"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -154,18 +153,17 @@ const TestimonialsSection = () => {
               <button
                 key={idx}
                 onClick={() => setCurrentIndex(idx)}
-                className={`h-1.5 rounded-full transition-all duration-300 ${
-                  idx === currentIndex
-                    ? 'w-6 bg-[#71a1a6] shadow-[0_0_8px_rgba(1,191,36,0.6)]' // Glowing yellow/orange active pill
-                    : 'w-4 bg-white/30' // Gray inactive pill
-                }`}
+                className={`h-1.5 rounded-full transition-all duration-300 ${idx === currentIndex
+                  ? 'w-6 bg-[#71a1a6] shadow-[0_0_8px_rgba(1,191,36,0.6)]' // Glowing yellow/orange active pill
+                  : 'w-4 bg-white/30' // Gray inactive pill
+                  }`}
               />
             ))}
           </div>
 
           {/* Mobile Right Arrow */}
-          <button 
-            onClick={nextSlide} 
+          <button
+            onClick={nextSlide}
             className="w-10 h-10 rounded-full bg-black/40 flex items-center justify-center text-white hover:bg-black/60 transition-colors"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -178,11 +176,10 @@ const TestimonialsSection = () => {
 
         {/* Bottom Action Button */}
         <div className="flex justify-center w-full px-4 sm:px-0 mt-4 md:mt-0">
-          <a 
-            href="#" 
-          className="w-full  sm:w-auto flex justify-center items-center px-8 py-4 bg-transparent border-2 border-cyan-500 text-slate-100 rounded-full font-bold text-sm md:text-xl tracking-wide shadow-lg text-center"   >
+          <button
+            className="w-full  sm:w-auto flex justify-center items-center px-8 py-4 bg-transparent border-2 border-cyan-500 text-slate-100 rounded-full font-bold text-sm md:text-xl tracking-wide shadow-lg text-center"   >
             Read More Google Business Profile Managers Reviews
-          </a>
+          </button>
         </div>
 
       </div>

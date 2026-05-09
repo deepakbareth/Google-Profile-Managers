@@ -16,6 +16,7 @@ import ErpCrmPage from './Pages/erpCrmPage'
 import DigitalMarketingPage from './Pages/DigitalMarketingPage'
 import SeoPage from './Pages/SeoPage'
 import ServicesPage from './Pages/ServicesPage'
+import SuccessStoriesPage from './Pages/SuccessStoriesPage'
 
 function App() {
   const navLinks = [
@@ -45,6 +46,7 @@ function App() {
         <Route path="/googleprofilemanagers/digital-marketing" element={<DigitalMarketingPage />} />
         <Route path="/googleprofilemanagers/search-engine-optimization" element={<SeoPage />} />
         <Route path="/googleprofilemanagers/services" element={<ServicesPage />} />
+        <Route path="/googleprofilemanagers/success-stories" element={<SuccessStoriesPage />} />
       </Routes>
       <Footer />
     </>

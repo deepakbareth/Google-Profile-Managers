@@ -4,11 +4,11 @@ const ServicesIntro = ({ data }) => {
     if (!data) return null;
 
     return (
-        <section className="py-20 bg-slate-50">
+        <section className="pt-20 bg-slate-50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
                 {/* Heading */}
-                <h2 className="text-3xl md:text-4xl font-bold text-[#1a6b8f] text-center mb-10">
+                <h2 className="text-2xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-600 leading-tight tracking-tight mb-8 text-center">
                     {data.Heading}
                 </h2>
 

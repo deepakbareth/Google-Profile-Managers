@@ -1,6 +1,6 @@
 import ContactUs from "../Components/Contect-Us/ContactUs";
 
-function WebServicesPage() {
+function ContactUsPage() {
     return (
         <>
             <ContactUs />
@@ -8,4 +8,4 @@ function WebServicesPage() {
     );
 }
 
-export default WebServicesPage;
+export default ContactUsPage;

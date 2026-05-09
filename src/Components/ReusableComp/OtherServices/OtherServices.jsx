@@ -14,19 +14,21 @@ const OtherServices = ({ data }) => {
         </div>
 
         {/* 3-Column Grid for the Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-10">
-          {data.items.map((service, index) => (
-            <ServiceCard
-              key={index}
-              image={service.image}
-              title={service.title}
-              price={service.price}
-              unit={service.unit}
-              paragraphs={service.paragraphs}
-              bottomLinkText={service.bottomLinkText}
-              bottomLinkUrl={service.bottomLinkUrl}
-            />
-          ))}
+        <div
+          className={`grid grid-cols-1 md:grid-cols-2 ${data.items.length % 3 === 0 ? 'lg:grid-cols-3' : 'lg:grid-cols-4'
+            } gap-8 xl:gap-10`}
+        > {data.items.map((service, index) => (
+          <ServiceCard
+            key={index}
+            image={service.image}
+            title={service.title}
+            price={service.price}
+            unit={service.unit}
+            paragraphs={service.paragraphs}
+            bottomLinkText={service.bottomLinkText}
+            bottomLinkUrl={service.bottomLinkUrl}
+          />
+        ))}
         </div>
 
       </div>
