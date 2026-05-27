@@ -46,7 +46,7 @@ const Footer = () => {
             <ul className="space-y-4">
               {['MANAGEMENT', 'OPTIMIZATION', 'SETUP', 'SUPPORT', 'WEB-SERVICES', 'CONTACT-US'].map((link, index) => (
                 <li key={index}>
-                  <Link to={`/googleprofilemanagers/${link.toLocaleLowerCase()}`} className="group flex items-center text-slate-400 hover:text-white transition-all duration-300 font-medium text-base">
+                  <Link to={`/${link.toLocaleLowerCase()}`} className="group flex items-center text-slate-400 hover:text-white transition-all duration-300 font-medium text-base">
                     {/* Animated Arrow on Hover */}
                     <svg className="w-4 h-4 mr-2 opacity-0 -ml-6 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 text-[#36b5cc]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

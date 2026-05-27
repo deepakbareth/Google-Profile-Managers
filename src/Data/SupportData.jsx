@@ -9,7 +9,7 @@ import setupImg from '../assets/globle/setUp.png'
 
 
 export const SupportData = {
- banner: {
+  banner: {
     titlePrefix: "Google Business Profile",
     titleHighlight: "Support Service",
     subtitle: "Facing a suspended profile or frustrating verification issues? Let our experts navigate Google's complex support system to get your listing back on track quickly."
@@ -125,7 +125,7 @@ export const SupportData = {
           "Complete with a dedicated Google Profile Managers account manager and monthly reporting, we'll even fight spammy profiles in your area making this the most complete Google Profile Managers Management Service ever!"
         ],
         bottomLinkText: "Google Business Profile Management Service",
-        bottomLinkUrl: "/googleprofilemanagers/management"
+        bottomLinkUrl: "/management"
       },
       {
         image: optimizationImg, // Make sure to import your optimization image at the top!
@@ -138,7 +138,7 @@ export const SupportData = {
           "With this service you will work directly with one of our Google Profile Managers experts who will audit your existing listing, and then lead the implementation of an action plan designed to bring your listing to the top of the local pack."
         ],
         bottomLinkText: "Google Business Profile Optimization Service",
-        bottomLinkUrl: "/googleprofilemanagers/optimization"
+        bottomLinkUrl: "/optimization"
       },
       {
         image: setupImg, // Make sure to import your setup image at the top!
@@ -152,7 +152,7 @@ export const SupportData = {
           "Let the Google Profile Managers use his brain and braun to make setting up your Google Profile Managers profile easy!"
         ],
         bottomLinkText: "Google Business Profile Setup Service",
-        bottomLinkUrl: "/googleprofilemanagers/setup"
+        bottomLinkUrl: "/setup"
       }
     ]
   }

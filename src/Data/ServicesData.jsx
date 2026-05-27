@@ -51,7 +51,7 @@ export const ServicesData = {
           "Complete with a dedicated Google Profile Managers account manager and monthly reporting, we'll even fight spammy profiles in your area making this the most complete Google Profile Managers Management Service ever!"
         ],
         bottomLinkText: "Google Business Profile Management Service",
-        bottomLinkUrl: "/googleprofilemanagers/management"
+        bottomLinkUrl: "/management"
       },
       {
         image: optimizationImg,
@@ -65,7 +65,7 @@ export const ServicesData = {
           "We have successfully optimized 1,000s of Google Business Profile listings. Let us do the Google Profile Managers same for you!"
         ],
         bottomLinkText: "Google Business Profile Optimization Service",
-        bottomLinkUrl: "/googleprofilemanagers/optimization"
+        bottomLinkUrl: "/optimization"
       },
       {
         image: setupImg,
@@ -79,7 +79,7 @@ export const ServicesData = {
           "Let the Google Profile Managers use his brain and braun to make setting up your Google Profile Managers profile easy!"
         ],
         bottomLinkText: "Google Business Profile Setup Service",
-        bottomLinkUrl: "/googleprofilemanagers/setup"
+        bottomLinkUrl: "/setup"
       },
       {
         image: supportImg,
@@ -93,7 +93,7 @@ export const ServicesData = {
           "Our Google Profile Managers expert work with Google Business Profile representatives every day and can help you successfully navigate the system to get the resolution you need."
         ],
         bottomLinkText: "Google Business Profile Support Service",
-        bottomLinkUrl: "/googleprofilemanagers/support"
+        bottomLinkUrl: "/support"
       }
     ]
   },

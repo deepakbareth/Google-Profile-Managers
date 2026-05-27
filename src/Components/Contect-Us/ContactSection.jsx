@@ -81,7 +81,7 @@ const ContactSection = () => {
             {/* Contact Details */}
             <div className="flex flex-col space-y-8">
 
-              <div className="flex flex-col sm:flex-row gap-8 lg:flex-col xl:flex-row justify-between">
+              <div className="flex flex-col sm:flex-col gap-8 lg:flex-col xl:flex-col justify-between">
                 {/* Email Info */}
                 <div className="flex-1">
                   <h4 className="font-bold text-slate-900 text-lg mb-4 tracking-wide uppercase text-sm">Email Us</h4>

@@ -33,11 +33,11 @@ const Navbar = () => {
 
   // Ensure absolute paths for pages and hash paths for sections
   const navLinks = [
-    { name: 'MANAGEMENT', path: '/googleprofilemanagers/management' },
-    { name: 'OPTIMIZATION', path: '/googleprofilemanagers/optimization' },
-    { name: 'SETUP', path: '/googleprofilemanagers/setup' },
-    { name: 'SUPPORT', path: '/googleprofilemanagers/support' },
-    { name: 'WEB SERVICES', path: '/googleprofilemanagers/web-services' },
+    { name: 'MANAGEMENT', path: '/management' },
+    { name: 'OPTIMIZATION', path: '/optimization' },
+    { name: 'SETUP', path: '/setup' },
+    { name: 'SUPPORT', path: '/support' },
+    { name: 'WEB SERVICES', path: '/web-services' },
   ];
 
   return (
@@ -68,7 +68,7 @@ const Navbar = () => {
               1. LEFT: LOGO SECTION
               ============================== */}
           <div className="flex-1 flex justify-start items-center min-w-max">
-            <Link to="/googleprofilemanagers/" onClick={() => setIsMobileMenuOpen(false)}>
+            <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>
               <img
                 src={logo}
                 alt="Google Business Profile Managers"
@@ -115,9 +115,9 @@ const Navbar = () => {
                 <div className="absolute left-1/2 -translate-x-1/2 mt-4 w-48 bg-white border border-gray-100 rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 overflow-hidden">
 
                   <Link
-                    to="/googleprofilemanagers/contact-us"
+                    to="/contact-us"
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className={`block px-4 py-2 text-sm font-bold transition-colors ${location.pathname === '/googleprofilemanagers/contact-us' // <-- Changed this line
+                    className={`block px-4 py-2 text-sm font-bold transition-colors ${location.pathname === '/contact-us' // <-- Changed this line
                       ? 'text-blue-700'
                       : 'text-gray-500 hover:text-gray-600 hover:bg-gray-50'
                       }`}
@@ -216,11 +216,11 @@ const Navbar = () => {
               <div className={`pl-4 overflow-hidden transition-all duration-200 ${isMobileMoreOpen ? 'max-h-40 opacity-100 mt-1' : 'max-h-0 opacity-0'}`}>
 
                 <Link
-                  to="/googleprofilemanagers/contact-us"
+                  to="/contact-us"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`block px-4 py-2 text-sm font-bold transition-colors ${location.pathname === '/googleprofilemanagers/contact-us' // <-- Changed this line
-                      ? 'text-blue-700'
-                      : 'text-gray-800 hover:text-gray-600 hover:bg-gray-50'
+                  className={`block px-4 py-2 text-sm font-bold transition-colors ${location.pathname === '/contact-us' // <-- Changed this line
+                    ? 'text-blue-700'
+                    : 'text-gray-800 hover:text-gray-600 hover:bg-gray-50'
                     }`}
                 >
                   Contact Us

@@ -15,7 +15,7 @@ export const optimizationData = {
   },
   hero: {
     title: "Dominate with Google Business Profile Optimization from the Master of Local Search. ",
-    titleHighlight:"Only $99 per Profile.",
+    titleHighlight: "Only $99 per Profile.",
     italicSubtitle: "Do you want your Google Business Profile listing to rank higher than your competitors? Then our Google Business Profile Optimization Service is the exact solution you need.",
     paragraphs: [
       "The Google Business Profile Optimization Service is designed for those who already have a Google Business Profile Managers listing, but aren't 100% sure they're doing everything to maximize their results.",
@@ -26,7 +26,7 @@ export const optimizationData = {
     image: revenue,
   },
 
-// NEW OVERVIEW DATA ADDED HERE
+  // NEW OVERVIEW DATA ADDED HERE
 
   overview: {
     title: "Google Business Profile Optimization Service Overview",
@@ -41,7 +41,7 @@ export const optimizationData = {
       "Implementation of optimizations on your profile",
       "Dedicated Account Manager",
       "Plus one month of Google Posts and FAQs added to your profile!"
-      
+
     ],
     bottomText: "If you have more than one location you need to optimize don't worry – we can handle hundreds of profiles. We have experience with many multi-location businesses and can come up with a solution for optimizing all of your Google Business Profiles.",
     // Put your local image path here later!
@@ -107,8 +107,8 @@ export const optimizationData = {
       },
       {
         question: "Does this service include optimizing my website?",
-        answer:"No, our Google Business Profile Optimization only focuses on optimizing your Google Business Profile Managers listing. We do not provide website optimization services at this time, but click here to email the head Google Business Profile Managers to let him know we should!",
-          },
+        answer: "No, our Google Business Profile Optimization only focuses on optimizing your Google Business Profile Managers listing. We do not provide website optimization services at this time, but click here to email the head Google Business Profile Managers to let him know we should!",
+      },
       {
         question: "Does this service guarantee I will get results?",
         answer: "While having an optimized Google Business Profile listing will help increase your rankings, traffic, and leads, you should consider ongoing management and promotion in order to get the most out of your presence as Google Business Profile is always changing!"
@@ -117,7 +117,7 @@ export const optimizationData = {
         question: "Who is responsible for approving content, edits, posts, etc?",
         answer: "We have two ways of handling this. The first options is you can request manual review of all content, edits, posts, etc. With this option we will send you the recommended changes, and then await your confirmation before implementing. The second option is to auto-approve based on the Account Manager's professional experience. Most customers choose to auto-approve. With either option, our team is responsible for content, edits, and Q&A's."
       }
-      
+
     ]
   },
 
@@ -137,7 +137,7 @@ export const optimizationData = {
           "Complete with a dedicated Google Business Profile Managers account manager and monthly reporting, we'll even fight spammy profiles in your area making this the most complete Google Business Profile Managers Management Service ever!"
         ],
         bottomLinkText: "Google Business Profile Management Service",
-        bottomLinkUrl: "/googleprofilemanagers/management"
+        bottomLinkUrl: "/management"
       },
       {
         image: setupImg, // Replace with your actual imported variable
@@ -151,7 +151,7 @@ export const optimizationData = {
           "Let the Google Business Profile Managers use his brain and braun to make setting up your Google Business Profile Managers profile easy!"
         ],
         bottomLinkText: "Google Business Profile Setup Service",
-        bottomLinkUrl: "/googleprofilemanagers/setup"
+        bottomLinkUrl: "/setup"
       },
       {
         image: supportImg, // Replace with your actual imported variable
@@ -165,7 +165,7 @@ export const optimizationData = {
           "Our Google Business Profile Managers expert work with Google Business Profile representatives every day and can help you successfully navigate the system to get the resolution you need."
         ],
         bottomLinkText: "Google Business Profile Support Service",
-        bottomLinkUrl: "/googleprofilemanagers/support"
+        bottomLinkUrl: "/support"
       }
     ]
   }
