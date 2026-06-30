@@ -65,15 +65,6 @@ const BlogSection4 = () => {
                     border-radius: 12px;
                 }
 
-                .image-frame::before {
-                    content: '';
-                    position: absolute;
-                    inset: 0;
-                    // background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, transparent 100%);
-                    pointer-events: none;
-                    z-index: 1;
-                }
-
                 .image-frame img {
                     width: 100%;
                     height: auto;
@@ -97,10 +88,10 @@ const BlogSection4 = () => {
                     content: '';
                     position: absolute;
                     left: 0;
-                    top: 6px;
-                    width: 8px;
-                    height: 8px;
-                    background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+                    top: 10px;
+                    width: 6px;
+                    height: 6px;
+                    background: #000000;
                     border-radius: 50%;
                 }
 
@@ -180,11 +171,8 @@ const BlogSection4 = () => {
                     <div className="mb-8">
                         <div className="badge">Local SEO Excellence</div>
                         <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                            Improve Rankings With Google Business Profile Management Services
+                            Improve Rankings with Google Business Profile management services
                         </h1>
-                        <p className="text-xl text-slate-600 leading-relaxed">
-                            A properly managed Google Business Profile is essential for local businesses seeking visibility in today's digital landscape.
-                        </p>
                     </div>
 
                     <div className="image-frame mt-10 ">
@@ -200,7 +188,7 @@ const BlogSection4 = () => {
                             If you've ever searched "best pizza near me" or "plumber open now", you already understand why showing up on Google matters. That search habit — grabbing a phone and looking for the nearest option — is what your potential customers do every single day. And if your business isn't showing up, or showing up with wrong hours and no photos, someone else is getting that call.
                         </p>
                         <p className="text-lg text-slate-700 leading-relaxed">
-                            This is the gap that Google Business Profile management services are built to close.
+                            This is the gap that <strong className="text-slate-900">Google Business Profile management services</strong> are built to close.
                         </p>
                     </div>
                 </div>
@@ -210,7 +198,7 @@ const BlogSection4 = () => {
                 {/* Section 2 */}
                 <div className="section-container mb-20" data-animate>
                     <p className="text-lg text-slate-700 leading-relaxed mb-12">
-                        At Google Profile Managers, we work with local business owners who are great at what they do but don't have time to babysit a Google listing. Our job is to make sure that when someone searches for your type of business, your profile actually earns their click.
+                        At <strong className="text-blue-600">Google Profile Managers</strong>, we work with local business owners who are great at what they do but don't have time to babysit a Google listing. Our job is to make sure that when someone searches for your type of business, your profile actually earns their click.
                     </p>
 
                     <h2 className="text-4xl font-bold text-slate-900 mb-8 pb-4 border-b-2 border-blue-200">
@@ -227,11 +215,11 @@ const BlogSection4 = () => {
 
                         <div className="highlight-box">
                             <p className="text-slate-700">
-                                Read more – <Link to="/setup" className="link-hover">Google Business Profile Setup</Link>
+                                <strong className="text-slate-900">Read more –</strong> <Link to="/setup" className="link-hover">Google Business Profile Setup</Link>
                             </p>
                         </div>
 
-                        <p className="text-lg text-slate-700 font-semibold mb-8">
+                        <p className="text-lg text-slate-700 font-bold mb-8">
                             A few things a properly managed profile can do:
                         </p>
 
@@ -254,7 +242,7 @@ const BlogSection4 = () => {
                         </div>
 
                         <p className="text-lg text-slate-700 leading-relaxed mt-8">
-                            None of this happens automatically. It takes consistent, knowledgeable upkeep — which is exactly where professional Google Business Profile management services come in.
+                            None of this happens automatically. It takes consistent, knowledgeable upkeep — which is exactly where professional <strong className="text-slate-900">Google Business Profile management services</strong> come in.
                         </p>
                     </div>
                 </div>
@@ -278,38 +266,34 @@ const BlogSection4 = () => {
                         A lot of businesses assume that once they've set up a profile, the work is done. It isn't. Google rewards profiles that stay active, accurate, and engaging. Here's what ongoing management actually looks like in practice:
                     </p>
 
-                    <div className="space-y-6">
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Profile Setup and Verification:</strong> Getting this step right from the beginning prevents problems down the road. Wrong categories, duplicate listings, and unverified profiles all chip away at your local visibility.
-                        </div>
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Business Information Accuracy:</strong> Your name, address, phone number, and hours need to be consistent not just on Google but across every directory where your business appears. Even small discrepancies can confuse Google's algorithm and lower your rankings.
-                        </div>
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Keyword-Rich Descriptions:</strong> The words you use in your business description, posts, and service listings affect what searches you show up for. Strategic placement of relevant terms — including naturally integrating <strong>Google Business Profile management services</strong> language where appropriate — helps Google understand what your business offers.
-                        </div>
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Regular Posts and Updates:</strong> Google lets you publish posts directly to your profile — promotions, events, new services, and seasonal hours. Most businesses never use this feature. The ones that do have a clear edge over competitors whose profiles look static.
-                        </div>
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Photo Management:</strong> Profiles with photos get significantly more clicks than those without. High-quality images of your team, location, work, or products make a profile feel real and trustworthy. This matters more than most business owners realise.
-                        </div>
+                    <div className="space-y-8">
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Profile Setup and Verification</strong> Getting this step right from the beginning prevents problems down the road. Wrong categories, duplicate listings, and unverified profiles all chip away at your local visibility.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Business Information Accuracy</strong> Your name, address, phone number, and hours need to be consistent not just on Google but across every directory where your business appears. Even small discrepancies can confuse Google's algorithm and lower your rankings.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Keyword-Rich Descriptions</strong> The words you use in your business description, posts, and service listings affect what searches you show up for. Strategic placement of relevant terms — including naturally integrating <strong className="text-slate-900">Google Business Profile management services</strong> language where appropriate — helps Google understand what your business offers.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Regular Posts and Updates</strong> Google lets you publish posts directly to your profile — promotions, events, new services, and seasonal hours. Most businesses never use this feature. The ones that do have a clear edge over competitors whose profiles look static.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Photo management profiles</strong> with photos get significantly more clicks than those without. High-quality images of your team, location, work, or products make a profile feel real and trustworthy. This matters more than most business owners realise.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Review Monitoring and Responses</strong> Reviews are one of the strongest local ranking signals Google uses. Getting more of them, and responding to them professionally, is something that requires consistent attention. Ignoring a negative review or leaving questions unanswered damages credibility fast.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Analytics Review</strong> Google provides data on how many people viewed your profile, what they searched to find it, how many clicked for directions, and more. Reviewing this regularly tells you what's working and where there's room to improve.
+                        </p>
                     </div>
 
-                    <div className="mt-10 space-y-6">
-                        <p className="text-lg text-slate-700 leading-relaxed">
-                            Review Monitoring and Responses Reviews are one of the strongest local ranking signals Google uses. Getting more of them, and responding to them professionally, is something that requires consistent attention. Ignoring a negative review or leaving questions unanswered damages credibility fast.
+                    <div className="highlight-box mt-8">
+                        <p className="text-slate-700">
+                            <strong className="text-slate-900">Read more –</strong> <Link to="/optimization" className="link-hover">Google Business Profile Optimization Service</Link>
                         </p>
-
-                        <p className="text-lg text-slate-700 leading-relaxed">
-                            Analytics Review Google provides data on how many people viewed your profile, what they searched to find it, how many clicked for directions, and more. Reviewing this regularly tells you what's working and where there's room to improve.
-                        </p>
-
-                        <div className="highlight-box">
-                            <p className="text-slate-700">
-                                Read more – <Link to="/optimization" className="link-hover">Google Business Profile Optimization Service</Link>
-                            </p>
-                        </div>
                     </div>
                 </div>
 
@@ -328,7 +312,7 @@ const BlogSection4 = () => {
                             And Google doesn't make it easier. The platform changes regularly. Features get added. Algorithm updates shift what matters for rankings. Keeping up requires attention that most business owners — reasonably — can't spare.
                         </p>
                         <p className="text-lg text-slate-700 leading-relaxed">
-                            That's the real reason professional Google Business Profile management services exist. Not because the work is mysterious, but because doing it consistently and correctly takes time and expertise that's better spent by someone who focuses on it full-time.
+                            That's the real reason professional <strong className="text-slate-900">Google Business Profile management services</strong> exist. Not because the work is mysterious, but because doing it consistently and correctly takes time and expertise that's better spent by someone who focuses on it full-time.
                         </p>
                     </div>
                 </div>
@@ -344,24 +328,26 @@ const BlogSection4 = () => {
                         Short answer: almost any local business. But a few industries see particularly clear results:
                     </p>
 
-                    <div className="space-y-4">
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Restaurants and Food Businesses:</strong> People searching for food are ready to act immediately. A complete, photo-rich profile with strong reviews can be the difference between a full table and an empty one on a slow night.
-                        </div>
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Medical and Dental Clinics:</strong> Patients choose providers based on trust. A well-maintained profile with accurate information and genuine reviews significantly affects whether a new patient books with you or scrolls past.
-                        </div>
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Home Service Businesses:</strong> Electricians, plumbers, HVAC technicians, and cleaners are almost entirely dependent on local search for new leads. This is one area where a strong profile pays off fast.
-                        </div>
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Retail store profiles:</strong> can feature products, hours, special offers, and events — giving local shoppers a reason to come in rather than order online.
-                        </div>
-                        <div className="list-item text-slate-700 text-lg">
-                            <strong className="text-slate-900">Law Firms and Professional Services:</strong> Credibility is everything in these industries. A thorough, active profile with professional photos and thoughtful review responses builds the kind of authority that converts searches into consultations.
-                        </div>
+                    <div className="space-y-6">
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Restaurants and Food Businesses</strong> People searching for food are ready to act immediately. A complete, photo-rich profile with strong reviews can be the difference between a full table and an empty one on a slow night.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Medical and Dental Clinics</strong> Patients choose providers based on trust. A well-maintained profile with accurate information and genuine reviews significantly affects whether a new patient books with you or scrolls past.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Home Service Businesses</strong> Electricians, plumbers, HVAC technicians, and cleaners are almost entirely dependent on local search for new leads. This is one area where a strong profile pays off fast.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Retail store profiles</strong> can feature products, hours, special offers, and events — giving local shoppers a reason to come in rather than order online.
+                        </p>
+                        <p className="text-lg text-slate-700 leading-relaxed">
+                            <strong className="text-slate-900">Law Firms and Professional Services</strong> Credibility is everything in these industries. A thorough, active profile with professional photos and thoughtful review responses builds the kind of authority that converts searches into consultations.
+                        </p>
                     </div>
                 </div>
+
+                <div className="section-divider my-16"></div>
 
                 {/* Section 6 */}
                 <div className="section-container mb-20" data-animate>
@@ -411,7 +397,7 @@ const BlogSection4 = () => {
                         </p>
 
                         <p className="text-lg text-slate-700 leading-relaxed">
-                            Google uses signals from your profile to determine relevance (does this business match what the user searched?), distance (how close is it?), and prominence (how well-known and trusted is this business online?). Strong <strong>Google Business Profile management services</strong> address all three of these areas directly.
+                            Google uses signals from your profile to determine relevance (does this business match what the user searched?), distance (how close is it?), and prominence (how well-known and trusted is this business online?). Strong <strong className="text-slate-900">Google Business Profile management services</strong> address all three of these areas directly.
                         </p>
 
                         <p className="text-lg text-slate-700 leading-relaxed">
@@ -436,7 +422,7 @@ const BlogSection4 = () => {
                     </h2>
                     <div className="space-y-6">
                         <p className="text-lg text-slate-700 leading-relaxed">
-                            At <strong>Google Business Profile management services</strong>, we handle every piece of this for you. Our process starts with a full audit of your current profile — what's working, what's missing, and what's actively hurting your visibility.
+                            At <strong className="text-slate-900">Google Business Profile management services</strong>, we handle every piece of this for you. Our process starts with a full audit of your current profile — what's working, what's missing, and what's actively hurting your visibility.
                         </p>
 
                         <p className="text-lg text-slate-700 font-semibold mb-6">
@@ -484,12 +470,12 @@ const BlogSection4 = () => {
                         </p>
 
                         <p className="text-lg text-slate-700 leading-relaxed">
-                            Investing in <strong>Google Business Profile management services</strong> isn't about gaming an algorithm. It's about showing up professionally when potential customers are actively looking for what you offer. That's a straightforward win for any local business.
+                            Investing in <strong className="text-slate-900">Google Business Profile management services</strong> isn't about gaming an algorithm. It's about showing up professionally when potential customers are actively looking for what you offer. That's a straightforward win for any local business.
                         </p>
 
                         <div className="highlight-box mt-8">
                             <p className="text-lg text-slate-900 leading-relaxed">
-                                If you want to stop leaving local visibility on the table, <strong>Google Profile Managers</strong> is ready to help. Reach out and let's talk about what's possible for your business.
+                                If you want to stop leaving local visibility on the table, <strong className="text-slate-900">Google Profile Managers</strong> is ready to help. Reach out and let's talk about what's possible for your business.
                             </p>
                         </div>
                     </div>

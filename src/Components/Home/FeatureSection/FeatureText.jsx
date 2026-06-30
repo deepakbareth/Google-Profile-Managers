@@ -26,20 +26,24 @@ const FeatureText = () => {
           See How We Help
         </a>
         <a
-          href="services"
+          href="#free-audit"
           className=" px-6 py-2 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
         >
           Get Free Audit
         </a>
         <a
-          href="services"
+          href="https://wa.me/13158981412"
+          target="_blank"
+          rel="noopener noreferrer"
           className=" px-6 py-2 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+          aria-label="WhatsApp"
         >
           WhatsApp Now
         </a>
         <a
-          href="services"
+          href="tel:+13158981412"
           className=" px-6 py-2 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+          aria-label="Call Now"
         >
           Book Free Call
         </a>

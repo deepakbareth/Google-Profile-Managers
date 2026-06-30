@@ -1,5 +1,5 @@
 import articleHeroImg from '../assets/blogs/blogs.png';
-
+//434734  217317
 export const BlogsData = {
     // SEO Data from the top of the screenshot
     seo: {

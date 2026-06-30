@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2, ShieldCheck, Zap } from 'lucide-react';
 
 const FreeAuditForm = () => {
   return (
-    <section className="relative py-16 md:py-20 lg:py-24 bg-blue-50/50 overflow-hidden font-sans border-t border-slate-100">
+    <section id="free-audit" className="relative py-16 md:py-20 lg:py-24 bg-blue-50/50 overflow-hidden font-sans border-t border-slate-100 ">
       <div className="max-w-[75rem] mx-auto px-4 sm:px-6 md:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
