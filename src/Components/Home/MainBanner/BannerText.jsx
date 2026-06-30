@@ -6,8 +6,9 @@ const BannerText = () => {
     <div className="w-full md:w-1/2 space-y-6 md:space-y-8 text-center md:text-left">
 
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-950 leading-tight tracking-tight">
-        How Smart Companies Rank in the Local Pack and on Google Maps
-        {/* Modern interpretation of the chart icon */}
+        {/* How Smart Companies Rank in the Local Pack and on Google Maps */}
+        Rank Higher on Google Maps & Get More Local Calls with Expert Google Business Profile Management
+
         <span className="inline-block ml-3 px-3 py-1 bg-white rounded-lg shadow-sm border border-gray-100">
           <svg className="w-8 h-8 lg:w-10 lg:h-10 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
         </span>
@@ -15,7 +16,9 @@ const BannerText = () => {
 
       {/* Exactly the same text as provided */}
       <p className="text-xl sm:text-2xl text-gray-700 leading-relaxed max-w-2xl font-normal font-sans mx-auto md:mx-0">
-        We put your <strong className="font-semibold text-gray-900">Google Business Profile</strong> on the map with our set-up, optimization, management services that help bring in more calls and leads.
+        {/* We put your <strong className="font-semibold text-gray-900">Google Business Profile</strong> on the map with our set-up, optimization, management services that help bring in more calls and leads. */}
+        We optimize, manage, post, and grow your <strong className="font-semibold text-gray-900">Google Business</strong> so local customers find you first.
+
       </p>
 
       {/* Added justify-center for mobile, md:justify-start for tablet/desktop */}

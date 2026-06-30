@@ -18,12 +18,30 @@ const FeatureText = () => {
         </p>
       </div>
 
-      <div className="pt-4 flex justify-center items-center lg:justify-start">
+      <div className="pt-4 flex flex-wrap justify-center items-center lg:justify-start gap-5">
         <a
           href="services"
-          className=" px-10 py-4 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+          className=" px-6 py-2 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
         >
           See How We Help
+        </a>
+        <a
+          href="services"
+          className=" px-6 py-2 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+        >
+          Get Free Audit
+        </a>
+        <a
+          href="services"
+          className=" px-6 py-2 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+        >
+          WhatsApp Now
+        </a>
+        <a
+          href="services"
+          className=" px-6 py-2 bg-blue-700 text-white rounded-xl font-bold text-[16px] text-center  tracking-wide shadow-md hover:bg-blue-800 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+        >
+          Book Free Call
         </a>
       </div>
 

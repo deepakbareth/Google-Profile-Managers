@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar2 from "./Components/Layout/Navbar2";
 import Footer from './Components/Layout/Footer';
 import Skeleton from './Components/Layout/Skeleton';
+import StickyMobileCTA from './Components/Home/StickyMobileCTA/StickyMobileCTA';
 
 // 2. Lazy load all page components using your EXACT file paths
 const Homes = lazy(() => import('./Pages/Home'));
@@ -52,7 +53,7 @@ function App() {
           <Route path="/blogs" element={<BlogsPage />} />
         </Routes>
       </Suspense>
-
+      <StickyMobileCTA />
       <Footer />
     </>
   );
