@@ -7,7 +7,7 @@ const BannerText = () => {
 
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-950 leading-tight tracking-tight">
         {/* How Smart Companies Rank in the Local Pack and on Google Maps */}
-        Professional Google Business Profile Managers			        <span className="inline-block ml-3 px-3 py-1 bg-white rounded-lg shadow-sm border border-gray-100">
+        USA Google Business Profile Managers for Local SEO Growth<span className="inline-block ml-3 px-3 py-1 bg-white rounded-lg shadow-sm border border-gray-100">
           <svg className="w-8 h-8 lg:w-10 lg:h-10 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
         </span>
       </h1>

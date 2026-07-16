@@ -4,7 +4,7 @@ import BannerImage from './BannerImage';
 
 const Banner = () => {
   return (
-    <div className="relative pt-32 pb-8 md:pt-40 md:pb-12 bg-slate-50 overflow-hidden font-cormorant">
+    <div className="relative pt-28 pb-8 md:pt-30 md:pb-12 bg-slate-50 overflow-hidden font-cormorant">
       {/* Subtle Background Pattern / Overlay */}
       <div className="absolute inset-0 opacity-10"
         style={{
