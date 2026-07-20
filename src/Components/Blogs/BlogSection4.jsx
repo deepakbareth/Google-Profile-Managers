@@ -23,7 +23,7 @@ const BlogSection4 = () => {
     }, []);
 
     return (
-        <div className="bg-gradient-to-b from-slate-50 via-white to-slate-50 min-h-screen py-20">
+        <div className="bg-gradient-to-b from-slate-50 via-white to-slate-50 min-h-screen py-5">
             <style>{`
                 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Playfair+Display:wght@700;800&display=swap');
 
