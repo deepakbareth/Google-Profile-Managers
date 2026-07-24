@@ -33,7 +33,6 @@ const BlogCard = ({ blog }) => {
                         {title}
                     </Link>
                 </h3>
-
                 {/* Excerpt */}
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-normal line-clamp-3">
                     {excerpt}

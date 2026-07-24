@@ -14,10 +14,10 @@ const ServiceImage = ({ image }) => {
           className="relative z-10 w-full h-auto object-contain drop-shadow-2xl transition-transform duration-500 group-hover:-translate-y-2"
         />
       </div>
-
-      {/* Tabs Component sits directly below image */}
+     
+     {/* Tabs Component sits directly below image */}
       <ServiceTabs />
-      
+
     </div>
   );
 };
