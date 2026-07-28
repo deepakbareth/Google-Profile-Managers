@@ -17,7 +17,7 @@ export const blogsList = [
         image: articleHeroImg,
         component: BlogSection4,
         seo: {
-            title: "Google Business Profile Management Services | Google Profile Managers",
+            title: "Improve Rankings with Google Business Profile management services",
             metaDescription: "Boost your local rankings with expert Google Business Profile Management Services in the USA. Optimize listings, attract customers, and grow faster online."
         }
     },

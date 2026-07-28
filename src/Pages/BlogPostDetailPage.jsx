@@ -10,10 +10,17 @@ function BlogPostDetailPage() {
     // Find matching blog post by slug
     const blog = blogsList.find((item) => item.slug === slug);
 
-    // Scroll to top on page mount or slug change
+    // Scroll to top and update meta title/description on slug change
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, [slug]);
+        if (blog) {
+            document.title = blog.seo?.title || blog.title;
+            const metaDescription = document.querySelector('meta[name="description"]');
+            if (metaDescription) {
+                metaDescription.setAttribute('content', blog.seo?.metaDescription || blog.excerpt);
+            }
+        }
+    }, [slug, blog]);
 
     // Handle invalid/missing blog post slug
     if (!blog) {
