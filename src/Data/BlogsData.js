@@ -1,12 +1,13 @@
 import articleHeroImg from '../assets/blogs/blogs2.png';
 import articleHeroImg2 from '../assets/blogs/blogs.png';
+import articleHeroImg3 from '../assets/blogs/blogs3.png';
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
+import BlogSection6 from '../Components/Blogs/BlogSection6';
 
 export const blogsList = [
     {
         id: "1",
-
         slug: "google-business-profile-management-services",
         title: "Improve Rankings with Google Business Profile Management Services",
         excerpt: "If you've ever searched 'best pizza near me' or 'plumber open now', you already understand why showing up on Google matters. Learn how professional Google Business Profile management services push your business into Google's local pack and drive inbound leads.",
@@ -35,6 +36,22 @@ export const blogsList = [
         seo: {
             title: "Google Business Profile SEO Services | Rank Higher on Maps",
             metaDescription: "Boost your local rankings with expert Google Business Profile SEO services. Optimize your GBP, attract more local customers, and increase calls and leads."
+        }
+    },
+    {
+        id: "3",
+        slug: "google-my-business-management-service",
+        title: "Google Business Profile SEO Services | Expert Local SEO",
+        excerpt: "Most people don’t walk into a shop cold anymore. They search first. Learn how a professional Google My Business management service keeps your profile accurate, competitive, and actually working to drive phone calls and foot traffic.",
+        category: "GMB Management",
+        date: "July 2026",
+        readTime: "9 min read",
+        author: "GBP Team",
+        image: articleHeroImg3,
+        component: BlogSection6,
+        seo: {
+            title: "Google Business Profile SEO Services | Expert Local SEO",
+            metaDescription: "Grow your local visibility with Google Business Profile SEO services, expert optimisation and management to improve rankings and attract customers."
         }
     }
 ];
