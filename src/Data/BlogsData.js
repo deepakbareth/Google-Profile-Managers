@@ -2,11 +2,13 @@ import articleHeroImg from '../assets/blogs/blogs2.png';
 import articleHeroImg2 from '../assets/blogs/blogs.png';
 import articleHeroImg3 from '../assets/blogs/blogs3.png';
 import articleHeroImg4 from '../assets/blogs/blogs4.png';
+import articleHeroImg5 from '../assets/blogs/blogs5.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
 import BlogSection6 from '../Components/Blogs/BlogSection6';
 import BlogSection7 from '../Components/Blogs/BlogSection7';
+import BlogSection8 from '../Components/Blogs/BlogSection8';
 
 export const blogsList = [
     {
@@ -71,6 +73,22 @@ export const blogsList = [
         seo: {
             title: "Google Business Profile SEO Services | Local SEO Experts",
             metaDescription: "Grow your local visibility with Google Business Profile SEO services. Improve rankings, attract customers and boost your local business online."
+        }
+    },
+    {
+        id: "5",
+        slug: "google-maps-seo-services",
+        title: "Google Maps SEO Services | Improve Local Rankings",
+        excerpt: "Most people don’t scroll through ten websites anymore before choosing a business. Learn how professional Google Maps SEO services help you stand out in the local pack and attract ready-to-buy customers.",
+        category: "Maps SEO",
+        date: "July 2026",
+        readTime: "8 min read",
+        author: "SEO Experts",
+        image: articleHeroImg5,
+        component: BlogSection8,
+        seo: {
+            title: "Google Maps SEO Services | Improve Local Rankings",
+            metaDescription: "Boost your local visibility with professional Google Maps SEO services. Improve rankings, attract customers and grow your local business."
         }
     }
 ];
