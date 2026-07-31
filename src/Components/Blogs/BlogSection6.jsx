@@ -170,7 +170,7 @@ const BlogSection6 = () => {
                     <div className="mb-8">
                         <div className="badge">Google My Business management service</div>
                         <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                            Google Business Profile SEO Services | Expert Local SEO
+                            Google Business Profile SEO Services Expert Local SEO
                         </h1>
                     </div>
 
@@ -210,7 +210,7 @@ const BlogSection6 = () => {
                         <p className="text-lg text-slate-700 leading-relaxed">
                             Strip away the jargon, and a <strong className="text-slate-900 font-semibold">Google My Business management service</strong> is simply someone keeping your profile in good shape, week after week, instead of once and never again. Whether you handle this in-house or hand it to a <strong className="text-slate-900 font-semibold">Google My Business management service</strong> provider, the tasks themselves don't change — only who's doing them and how consistently.
                         </p>
-                        
+
                         <p className="text-lg text-slate-700 font-bold mb-6">
                             In practice, that usually covers:
                         </p>
@@ -269,7 +269,7 @@ const BlogSection6 = () => {
                         <p className="text-lg text-slate-700 leading-relaxed">
                             Here’s the thing: your Google Business Profile is often the <em>first</em> thing a potential customer sees about you, full stop — before your website, before a friend’s recommendation, before anything else. When someone searches "plumber near me" or "coffee shop open now", Google surfaces a local pack of a few businesses. Whether you’re one of them, and whether your listing makes a good case for itself once you are, has a real effect on whether the phone rings.
                         </p>
-                        
+
                         <p className="text-lg text-slate-700 font-bold mb-6">
                             A profile that’s properly managed gives customers fast, accurate answers to the questions they actually have:
                         </p>
@@ -361,7 +361,7 @@ const BlogSection6 = () => {
                         <p className="text-lg text-slate-700 leading-relaxed">
                             This is exactly where a <strong className="text-[#1e293b] font-semibold">Google My Business management service</strong> earns its keep. Instead of the profile being an afterthought, it becomes something someone is actually watching — reviewing what’s there, spotting gaps, updating content, publishing posts, checking reviews, and tracking what’s actually happening with performance.
                         </p>
-                        
+
                         <p className="text-lg text-slate-700 font-bold mb-6">
                             A reasonable ongoing rhythm looks something like this:
                         </p>
@@ -414,7 +414,7 @@ const BlogSection6 = () => {
                         <p className="text-lg text-slate-700 leading-relaxed">
                             Your Google Business Profile is one piece of a bigger picture. Our <strong className="text-slate-900">local SEO services for businesses</strong> look at how your profile connects to everything else — <Link to="/web-services" className="link-hover">Google Business Profile Web Services</Link>, your citations, your local content, your backlinks.
                         </p>
-                        
+
                         <p className="text-lg text-slate-700 font-bold mb-6">
                             That wider work typically includes:
                         </p>
@@ -448,7 +448,7 @@ const BlogSection6 = () => {
                         <p className="text-lg text-slate-700 leading-relaxed">
                             Managing a profile yourself is completely doable in theory. In practice, most owners are running the actual business, and this ends up at the bottom of the list, week after week, until a year’s gone by and nothing’s changed.
                         </p>
-                        
+
                         <p className="text-lg text-slate-700 font-bold mb-6">
                             Professional <strong className="text-slate-900">Google Business Profile management services</strong> exist to take that off your plate. What you typically get:
                         </p>
