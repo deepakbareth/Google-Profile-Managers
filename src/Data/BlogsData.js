@@ -3,12 +3,14 @@ import articleHeroImg2 from '../assets/blogs/blogs.png';
 import articleHeroImg3 from '../assets/blogs/blogs3.png';
 import articleHeroImg4 from '../assets/blogs/blogs4.png';
 import articleHeroImg5 from '../assets/blogs/blogs5.png';
+import articleHeroImg6 from '../assets/blogs/blogs6.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
 import BlogSection6 from '../Components/Blogs/BlogSection6';
 import BlogSection7 from '../Components/Blogs/BlogSection7';
 import BlogSection8 from '../Components/Blogs/BlogSection8';
+import BlogSection9 from '../Components/Blogs/BlogSection9';
 
 export const blogsList = [
     {
@@ -89,6 +91,22 @@ export const blogsList = [
         seo: {
             title: "Google Maps SEO Services | Improve Local Rankings",
             metaDescription: "Boost your local visibility with professional Google Maps SEO services. Improve rankings, attract customers and grow your local business."
+        }
+    },
+    {
+        id: "6",
+        slug: "local-seo-services-for-small-businesses",
+        title: "Local SEO Services for Small Businesses | GBP SEO",
+        excerpt: "If you run a small business, you already know how much word-of-mouth matters. Learn how professional local SEO services and listing management keep your business visible where it counts.",
+        category: "Local SEO",
+        date: "July 2026",
+        readTime: "8 min read",
+        author: "GBP Team",
+        image: articleHeroImg6,
+        component: BlogSection9,
+        seo: {
+            title: "Local SEO Services for Small Businesses | GBP SEO",
+            metaDescription: "Grow your local visibility with expert local SEO services for small businesses and attract more customers from Google Search and Maps."
         }
     }
 ];
