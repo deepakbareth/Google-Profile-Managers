@@ -6,6 +6,8 @@ import articleHeroImg5 from '../assets/blogs/blogs5.png';
 import articleHeroImg6 from '../assets/blogs/blogs6.png';
 import articleHeroImg7 from '../assets/blogs/blogs7.png';
 import articleHeroImg8 from '../assets/blogs/blogs8.png';
+import articleHeroImg9 from '../assets/blogs/blogs9.png';
+
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -15,7 +17,7 @@ import BlogSection8 from '../Components/Blogs/BlogSection8';
 import BlogSection9 from '../Components/Blogs/BlogSection9';
 import BlogSection10 from '../Components/Blogs/BlogSection10';
 import BlogSection11 from '../Components/Blogs/BlogSection11';
-
+import BlogSection12 from '../Components/Blogs/BlogSection12';
 
 export const blogsList = [
     {
@@ -144,6 +146,22 @@ export const blogsList = [
         seo: {
             title: "GBP Optimization Services | Boost Local Google Rankings",
             metaDescription: "Improve your local visibility with expert GBP optimization services. Boost rankings, attract more customers and grow your business."
+        }
+    },
+    {
+        id: "9",
+        slug: "local-business-listing-optimization",
+        title: "Local Business Listing Optimisation | Google Profile Managers",
+        excerpt: "If you run a local business, you already know the game has changed. Learn how local business listing optimization gets you into the local pack and drives calls.",
+        category: "Listing Optimization",
+        date: "August 2026",
+        readTime: "8 min read",
+        author: "GBP Team",
+        image: articleHeroImg9,
+        component: BlogSection12,
+        seo: {
+            title: "Local Business Listing Optimisation | Google Profile Managers",
+            metaDescription: "Boost rankings with local business listing optimization, Google Maps SEO and Google Business Profile optimisation services today."
         }
     }
 ];
