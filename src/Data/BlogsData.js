@@ -1,9 +1,12 @@
 import articleHeroImg from '../assets/blogs/blogs2.png';
 import articleHeroImg2 from '../assets/blogs/blogs.png';
 import articleHeroImg3 from '../assets/blogs/blogs3.png';
+import articleHeroImg4 from '../assets/blogs/blogs4.png';
+
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
 import BlogSection6 from '../Components/Blogs/BlogSection6';
+import BlogSection7 from '../Components/Blogs/BlogSection7';
 
 export const blogsList = [
     {
@@ -52,6 +55,22 @@ export const blogsList = [
         seo: {
             title: "Google Business Profile SEO Services | Expert Local SEO",
             metaDescription: "Grow your local visibility with Google Business Profile SEO services, expert optimisation and management to improve rankings and attract customers."
+        }
+    },
+    {
+        id: "4",
+        slug: "google-business-profile-setup-service",
+        title: "Google Business Profile SEO Services | Local SEO Experts",
+        excerpt: "Think about the last time you needed a plumber, a new dentist, or somewhere to grab dinner. Learn how Google Business Profile SEO services and setup packages get your business seen, clicked, and called.",
+        category: "GBP Setup",
+        date: "July 2026",
+        readTime: "8 min read",
+        author: "SEO Team",
+        image: articleHeroImg4,
+        component: BlogSection7,
+        seo: {
+            title: "Google Business Profile SEO Services | Local SEO Experts",
+            metaDescription: "Grow your local visibility with Google Business Profile SEO services. Improve rankings, attract customers and boost your local business online."
         }
     }
 ];
