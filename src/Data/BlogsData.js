@@ -4,6 +4,7 @@ import articleHeroImg3 from '../assets/blogs/blogs3.png';
 import articleHeroImg4 from '../assets/blogs/blogs4.png';
 import articleHeroImg5 from '../assets/blogs/blogs5.png';
 import articleHeroImg6 from '../assets/blogs/blogs6.png';
+import articleHeroImg7 from '../assets/blogs/blogs7.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -11,6 +12,7 @@ import BlogSection6 from '../Components/Blogs/BlogSection6';
 import BlogSection7 from '../Components/Blogs/BlogSection7';
 import BlogSection8 from '../Components/Blogs/BlogSection8';
 import BlogSection9 from '../Components/Blogs/BlogSection9';
+import BlogSection10 from '../Components/Blogs/BlogSection10';
 
 export const blogsList = [
     {
@@ -107,6 +109,22 @@ export const blogsList = [
         seo: {
             title: "Local SEO Services for Small Businesses | GBP SEO",
             metaDescription: "Grow your local visibility with expert local SEO services for small businesses and attract more customers from Google Search and Maps."
+        }
+    },
+    {
+        id: "7",
+        slug: "gmb-profile-optimization",
+        title: "GMB Profile Optimisation | Google Business Profile SEO",
+        excerpt: "Here's something most business owners don't realise until it's too late: your next customer probably already searched for you on Google Maps. Learn how expert GMB profile optimisation helps you stand out in the map pack.",
+        category: "GBP Optimization",
+        date: "July 2026",
+        readTime: "9 min read",
+        author: "SEO Experts",
+        image: articleHeroImg7,
+        component: BlogSection10,
+        seo: {
+            title: "GMB Profile Optimisation | Google Business Profile SEO",
+            metaDescription: "Boost local visibility with expert GMB profile optimisation and Google Business Profile SEO services for better rankings and leads."
         }
     }
 ];
