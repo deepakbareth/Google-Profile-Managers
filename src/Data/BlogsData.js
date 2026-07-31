@@ -5,6 +5,7 @@ import articleHeroImg4 from '../assets/blogs/blogs4.png';
 import articleHeroImg5 from '../assets/blogs/blogs5.png';
 import articleHeroImg6 from '../assets/blogs/blogs6.png';
 import articleHeroImg7 from '../assets/blogs/blogs7.png';
+import articleHeroImg8 from '../assets/blogs/blogs8.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -13,6 +14,8 @@ import BlogSection7 from '../Components/Blogs/BlogSection7';
 import BlogSection8 from '../Components/Blogs/BlogSection8';
 import BlogSection9 from '../Components/Blogs/BlogSection9';
 import BlogSection10 from '../Components/Blogs/BlogSection10';
+import BlogSection11 from '../Components/Blogs/BlogSection11';
+
 
 export const blogsList = [
     {
@@ -125,6 +128,22 @@ export const blogsList = [
         seo: {
             title: "GMB Profile Optimisation | Google Business Profile SEO",
             metaDescription: "Boost local visibility with expert GMB profile optimisation and Google Business Profile SEO services for better rankings and leads."
+        }
+    },
+    {
+        id: "8",
+        slug: "gbp-optimization-services",
+        title: "GBP Optimization Services | Boost Local Google Rankings",
+        excerpt: "If your business relies on nearby customers, showing up on Google Maps is critical. Learn how professional GBP optimization services improve rankings and turn searches into calls.",
+        category: "GBP Optimization",
+        date: "July 2026",
+        readTime: "8 min read",
+        author: "GBP Team",
+        image: articleHeroImg8,
+        component: BlogSection11,
+        seo: {
+            title: "GBP Optimization Services | Boost Local Google Rankings",
+            metaDescription: "Improve your local visibility with expert GBP optimization services. Boost rankings, attract more customers and grow your business."
         }
     }
 ];
