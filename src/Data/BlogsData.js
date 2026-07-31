@@ -7,7 +7,7 @@ import articleHeroImg6 from '../assets/blogs/blogs6.png';
 import articleHeroImg7 from '../assets/blogs/blogs7.png';
 import articleHeroImg8 from '../assets/blogs/blogs8.png';
 import articleHeroImg9 from '../assets/blogs/blogs9.png';
-
+import articleHeroImg10 from '../assets/blogs/blogs10.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -18,6 +18,7 @@ import BlogSection9 from '../Components/Blogs/BlogSection9';
 import BlogSection10 from '../Components/Blogs/BlogSection10';
 import BlogSection11 from '../Components/Blogs/BlogSection11';
 import BlogSection12 from '../Components/Blogs/BlogSection12';
+import BlogSection13 from '../Components/Blogs/BlogSection13';
 
 export const blogsList = [
     {
@@ -162,6 +163,22 @@ export const blogsList = [
         seo: {
             title: "Local Business Listing Optimisation | Google Profile Managers",
             metaDescription: "Boost rankings with local business listing optimization, Google Maps SEO and Google Business Profile optimisation services today."
+        }
+    },
+    {
+        id: "10",
+        slug: "google-maps-ranking-service",
+        title: "Google Maps Ranking Service | Google Business Profile SEO",
+        excerpt: "Think about the last time you needed a service nearby. Learn how a professional Google Maps ranking service drives website clicks, calls, and direction requests.",
+        category: "Maps Ranking",
+        date: "August 2026",
+        readTime: "8 min read",
+        author: "SEO Experts",
+        image: articleHeroImg10,
+        component: BlogSection13,
+        seo: {
+            title: "Google Maps Ranking Service | Google Business Profile SEO",
+            metaDescription: "Boost local visibility with our Google Maps ranking service and Google Business Profile SEO services to attract more customers."
         }
     }
 ];
