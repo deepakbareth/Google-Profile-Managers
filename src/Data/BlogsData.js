@@ -16,6 +16,7 @@ import articleHeroImg15 from '../assets/blogs/blogs15.png';
 import articleHeroImg16 from '../assets/blogs/blogs16.png';
 import articleHeroImg17 from '../assets/blogs/blogs17.png';
 import articleHeroImg18 from '../assets/blogs/blogs18.png';
+import articleHeroImg19 from '../assets/blogs/blogs19.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -35,6 +36,7 @@ import BlogSection18 from '../Components/Blogs/BlogSection18';
 import BlogSection19 from '../Components/Blogs/BlogSection19';
 import BlogSection20 from '../Components/Blogs/BlogSection20';
 import BlogSection21 from '../Components/Blogs/BlogSection21';
+import BlogSection22 from '../Components/Blogs/BlogSection22';
 
 export const blogsList = [
     {
@@ -323,6 +325,22 @@ export const blogsList = [
         seo: {
             title: "Google Business Profile Management for Small Business",
             metaDescription: "Grow your local visibility with Google Business Profile management for small businesses. Improve rankings, engagement, and customer reach."
+        }
+    },
+    {
+        id: "19",
+        slug: "google-maps-profile-optimization-service",
+        title: "Google Maps Profile Optimization Service | Expert SEO",
+        excerpt: "Boost local visibility and attract more customers with our Google Maps profile optimization service. Improve rankings, visibility and local leads.",
+        category: "Map Optimization",
+        date: "August 2026",
+        readTime: "8 min read",
+        author: "SEO Team",
+        image: articleHeroImg19,
+        component: BlogSection22,
+        seo: {
+            title: "Google Maps Profile Optimization Service | Expert SEO",
+            metaDescription: "Boost local visibility and attract more customers with our Google Maps profile optimization service. Improve rankings, visibility and local leads."
         }
     }
 ];
