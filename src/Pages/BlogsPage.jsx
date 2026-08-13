@@ -22,8 +22,8 @@ function BlogsPage() {
             </header> */}
 
             {/* Clean Grid Section */}
-            <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14">
-                <div className="grid grid-cols-1 md:grid-cols-1 gap-8 lg:gap-10">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
                     {blogsList.map((blog) => (
                         <BlogCard key={blog.id} blog={blog} />
                     ))}
