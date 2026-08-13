@@ -14,6 +14,8 @@ import articleHeroImg13 from '../assets/blogs/blogs13.png';
 import articleHeroImg14 from '../assets/blogs/blogs14.png';
 import articleHeroImg15 from '../assets/blogs/blogs15.png';
 import articleHeroImg16 from '../assets/blogs/blogs16.png';
+import articleHeroImg17 from '../assets/blogs/blogs17.png';
+import articleHeroImg18 from '../assets/blogs/blogs18.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -31,6 +33,8 @@ import BlogSection16 from '../Components/Blogs/BlogSection16';
 import BlogSection17 from '../Components/Blogs/BlogSection17';
 import BlogSection18 from '../Components/Blogs/BlogSection18';
 import BlogSection19 from '../Components/Blogs/BlogSection19';
+import BlogSection20 from '../Components/Blogs/BlogSection20';
+import BlogSection21 from '../Components/Blogs/BlogSection21';
 
 export const blogsList = [
     {
@@ -287,6 +291,38 @@ export const blogsList = [
         seo: {
             title: "Google Business Profile Audit Service | Expert SEO",
             metaDescription: "Improve your local visibility with a Google Business Profile audit service. Find profile issues, boost rankings, and attract more customers."
+        }
+    },
+    {
+        id: "17",
+        slug: "google-business-profile-cleanup-service",
+        title: "Google Business Profile Cleanup Service | Expert Help",
+        excerpt: "Improve your local presence with a Google Business Profile cleanup service. Fix errors, remove duplicates, and optimise your profile.",
+        category: "GBP Cleanup",
+        date: "August 2026",
+        readTime: "9 min read",
+        author: "SEO Team",
+        image: articleHeroImg17,
+        component: BlogSection20,
+        seo: {
+            title: "Google Business Profile Cleanup Service | Expert Help",
+            metaDescription: "Improve your local presence with a Google Business Profile cleanup service. Fix errors, remove duplicates, and optimise your profile."
+        }
+    },
+    {
+        id: "18",
+        slug: "google-business-profile-management-for-small-business",
+        title: "Google Business Profile Management for Small Business",
+        excerpt: "Grow your local visibility with Google Business Profile management for small businesses. Improve rankings, engagement, and customer reach.",
+        category: "GBP Management",
+        date: "August 2026",
+        readTime: "9 min read",
+        author: "SEO Team",
+        image: articleHeroImg18,
+        component: BlogSection21,
+        seo: {
+            title: "Google Business Profile Management for Small Business",
+            metaDescription: "Grow your local visibility with Google Business Profile management for small businesses. Improve rankings, engagement, and customer reach."
         }
     }
 ];
