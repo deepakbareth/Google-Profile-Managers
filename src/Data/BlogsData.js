@@ -12,6 +12,8 @@ import articleHeroImg11 from '../assets/blogs/blogs11.png';
 import articleHeroImg12 from '../assets/blogs/blogs12.png';
 import articleHeroImg13 from '../assets/blogs/blogs13.png';
 import articleHeroImg14 from '../assets/blogs/blogs14.png';
+import articleHeroImg15 from '../assets/blogs/blogs15.png';
+import articleHeroImg16 from '../assets/blogs/blogs16.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -27,6 +29,8 @@ import BlogSection14 from '../Components/Blogs/BlogSection14';
 import BlogSection15 from '../Components/Blogs/BlogSection15';
 import BlogSection16 from '../Components/Blogs/BlogSection16';
 import BlogSection17 from '../Components/Blogs/BlogSection17';
+import BlogSection18 from '../Components/Blogs/BlogSection18';
+import BlogSection19 from '../Components/Blogs/BlogSection19';
 
 export const blogsList = [
     {
@@ -251,6 +255,38 @@ export const blogsList = [
         seo: {
             title: "Google Maps Marketing Services | Boost Local Visibility",
             metaDescription: "Get expert Google Maps marketing services to improve local visibility, attract more customers, and grow your business in Google search."
+        }
+    },
+    {
+        id: "15",
+        slug: "local-search-optimization-services",
+        title: "Local Search Optimization Services | Grow Local Visibility",
+        excerpt: "Boost your local visibility with expert local search optimization services designed to improve rankings, attract customers, and grow your business.",
+        category: "Local SEO",
+        date: "August 2026",
+        readTime: "11 min read",
+        author: "SEO Team",
+        image: articleHeroImg15,
+        component: BlogSection18,
+        seo: {
+            title: "Local Search Optimization Services | Grow Local Visibility",
+            metaDescription: "Boost your local visibility with expert local search optimization services designed to improve rankings, attract customers, and grow your business."
+        }
+    },
+    {
+        id: "16",
+        slug: "google-business-profile-audit-service",
+        title: "Google Business Profile Audit Service | Expert SEO",
+        excerpt: "Improve your local visibility with a Google Business Profile audit service. Find profile issues, boost rankings, and attract more customers.",
+        category: "GBP Audit",
+        date: "August 2026",
+        readTime: "8 min read",
+        author: "SEO Team",
+        image: articleHeroImg16,
+        component: BlogSection19,
+        seo: {
+            title: "Google Business Profile Audit Service | Expert SEO",
+            metaDescription: "Improve your local visibility with a Google Business Profile audit service. Find profile issues, boost rankings, and attract more customers."
         }
     }
 ];
