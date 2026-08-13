@@ -8,6 +8,7 @@ import articleHeroImg7 from '../assets/blogs/blogs7.png';
 import articleHeroImg8 from '../assets/blogs/blogs8.png';
 import articleHeroImg9 from '../assets/blogs/blogs9.png';
 import articleHeroImg10 from '../assets/blogs/blogs10.png';
+import articleHeroImg11 from '../assets/blogs/blogs11.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -19,6 +20,7 @@ import BlogSection10 from '../Components/Blogs/BlogSection10';
 import BlogSection11 from '../Components/Blogs/BlogSection11';
 import BlogSection12 from '../Components/Blogs/BlogSection12';
 import BlogSection13 from '../Components/Blogs/BlogSection13';
+import BlogSection14 from '../Components/Blogs/BlogSection14';
 
 export const blogsList = [
     {
@@ -179,6 +181,22 @@ export const blogsList = [
         seo: {
             title: "Google Maps Ranking Service | Google Business Profile SEO",
             metaDescription: "Boost local visibility with our Google Maps ranking service and Google Business Profile SEO services to attract more customers."
+        }
+    },
+    {
+        id: "11",
+        slug: "local-citation-services",
+        title: "Local Citation Services | Improve Local SEO & Rankings",
+        excerpt: "Boost local visibility with professional local citation services. Build accurate business listings, improve local SEO and strengthen online rankings.",
+        category: "Local SEO",
+        date: "August 2026",
+        readTime: "8 min read",
+        author: "GBP Team",
+        image: articleHeroImg11,
+        component: BlogSection14,
+        seo: {
+            title: "Local Citation Services | Improve Local SEO & Rankings",
+            metaDescription: "Boost local visibility with professional local citation services. Build accurate business listings, improve local SEO and strengthen online rankings."
         }
     }
 ];
