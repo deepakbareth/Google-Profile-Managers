@@ -11,6 +11,7 @@ import articleHeroImg10 from '../assets/blogs/blogs10.png';
 import articleHeroImg11 from '../assets/blogs/blogs11.png';
 import articleHeroImg12 from '../assets/blogs/blogs12.png';
 import articleHeroImg13 from '../assets/blogs/blogs13.png';
+import articleHeroImg14 from '../assets/blogs/blogs14.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -25,6 +26,7 @@ import BlogSection13 from '../Components/Blogs/BlogSection13';
 import BlogSection14 from '../Components/Blogs/BlogSection14';
 import BlogSection15 from '../Components/Blogs/BlogSection15';
 import BlogSection16 from '../Components/Blogs/BlogSection16';
+import BlogSection17 from '../Components/Blogs/BlogSection17';
 
 export const blogsList = [
     {
@@ -233,6 +235,22 @@ export const blogsList = [
         seo: {
             title: "Google Business Profile Consultant | Local SEO Expert",
             metaDescription: "Hire a Google Business Profile consultant to optimise your profile, improve local visibility, attract more customers and grow your business online."
+        }
+    },
+    {
+        id: "14",
+        slug: "google-maps-marketing-services",
+        title: "Google Maps Marketing Services | Boost Local Visibility",
+        excerpt: "Get expert Google Maps marketing services to improve local visibility, attract more customers, and grow your business in Google search.",
+        category: "Google Maps SEO",
+        date: "August 2026",
+        readTime: "10 min read",
+        author: "SEO Team",
+        image: articleHeroImg14,
+        component: BlogSection17,
+        seo: {
+            title: "Google Maps Marketing Services | Boost Local Visibility",
+            metaDescription: "Get expert Google Maps marketing services to improve local visibility, attract more customers, and grow your business in Google search."
         }
     }
 ];
