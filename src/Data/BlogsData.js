@@ -9,6 +9,8 @@ import articleHeroImg8 from '../assets/blogs/blogs8.png';
 import articleHeroImg9 from '../assets/blogs/blogs9.png';
 import articleHeroImg10 from '../assets/blogs/blogs10.png';
 import articleHeroImg11 from '../assets/blogs/blogs11.png';
+import articleHeroImg12 from '../assets/blogs/blogs12.png';
+import articleHeroImg13 from '../assets/blogs/blogs13.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -21,6 +23,8 @@ import BlogSection11 from '../Components/Blogs/BlogSection11';
 import BlogSection12 from '../Components/Blogs/BlogSection12';
 import BlogSection13 from '../Components/Blogs/BlogSection13';
 import BlogSection14 from '../Components/Blogs/BlogSection14';
+import BlogSection15 from '../Components/Blogs/BlogSection15';
+import BlogSection16 from '../Components/Blogs/BlogSection16';
 
 export const blogsList = [
     {
@@ -197,6 +201,38 @@ export const blogsList = [
         seo: {
             title: "Local Citation Services | Improve Local SEO & Rankings",
             metaDescription: "Boost local visibility with professional local citation services. Build accurate business listings, improve local SEO and strengthen online rankings."
+        }
+    },
+    {
+        id: "12",
+        slug: "google-review-management-services",
+        title: "Google Review Management Services | Reputation Experts",
+        excerpt: "Improve your online reputation with professional Google review management services. Monitor, respond to, and manage customer reviews effectively.",
+        category: "Review Management",
+        date: "August 2026",
+        readTime: "8 min read",
+        author: "GBP Team",
+        image: articleHeroImg12,
+        component: BlogSection15,
+        seo: {
+            title: "Google Review Management Services | Reputation Experts",
+            metaDescription: "Improve your online reputation with professional Google review management services. Monitor, respond to, and manage customer reviews effectively."
+        }
+    },
+    {
+        id: "13",
+        slug: "google-business-profile-consultant",
+        title: "Google Business Profile Consultant | Local SEO Expert",
+        excerpt: "Hire a Google Business Profile consultant to optimise your profile, improve local visibility, attract more customers and grow your business online.",
+        category: "GBP Consultant",
+        date: "August 2026",
+        readTime: "9 min read",
+        author: "SEO Team",
+        image: articleHeroImg13,
+        component: BlogSection16,
+        seo: {
+            title: "Google Business Profile Consultant | Local SEO Expert",
+            metaDescription: "Hire a Google Business Profile consultant to optimise your profile, improve local visibility, attract more customers and grow your business online."
         }
     }
 ];
