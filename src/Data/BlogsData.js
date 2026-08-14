@@ -17,6 +17,7 @@ import articleHeroImg16 from '../assets/blogs/blogs16.png';
 import articleHeroImg17 from '../assets/blogs/blogs17.png';
 import articleHeroImg18 from '../assets/blogs/blogs18.png';
 import articleHeroImg19 from '../assets/blogs/blogs19.png';
+import articleHeroImg20 from '../assets/blogs/blogs20.png';
 
 import BlogSection4 from '../Components/Blogs/BlogSection4';
 import BlogSection5 from '../Components/Blogs/BlogSection5';
@@ -37,6 +38,7 @@ import BlogSection19 from '../Components/Blogs/BlogSection19';
 import BlogSection20 from '../Components/Blogs/BlogSection20';
 import BlogSection21 from '../Components/Blogs/BlogSection21';
 import BlogSection22 from '../Components/Blogs/BlogSection22';
+import BlogSection23 from '../Components/Blogs/BlogSection23';
 
 export const blogsList = [
     {
@@ -341,6 +343,22 @@ export const blogsList = [
         seo: {
             title: "Google Maps Profile Optimization Service | Expert SEO",
             metaDescription: "Boost local visibility and attract more customers with our Google Maps profile optimization service. Improve rankings, visibility and local leads."
+        }
+    },
+    {
+        id: "20",
+        slug: "google-business-profile-review-management-services",
+        title: "Google Business Profile Review Management Services",
+        excerpt: "Improve your online reputation with Google Business Profile review management. Monitor, respond to, and manage customer reviews effectively.",
+        category: "Review Management",
+        date: "August 2026",
+        readTime: "8 min read",
+        author: "SEO Team",
+        image: articleHeroImg20,
+        component: BlogSection23,
+        seo: {
+            title: "Google Business Profile Review Management Services",
+            metaDescription: "Improve your online reputation with Google Business Profile review management. Monitor, respond to, and manage customer reviews effectively."
         }
     }
 ];
