@@ -190,7 +190,7 @@ const BlogSection14 = () => {
                             If you want more customers finding your business online, especially the ones searching nearby, there's one piece of the puzzle that's easy to overlook: making sure your business information is accurate and consistent everywhere it appears. Your name, address, phone number, website, hours, and services need to match up across every directory, platform, and listing out there. When that happens, it genuinely strengthens your local search presence. This is exactly the kind of work <strong className="text-slate-900">Local Citation Services</strong> are built to handle.
                         </p>
                         <p className="text-lg text-slate-700 leading-relaxed">
-                            At <strong className="text-blue-600 font-semibold">Google Business Profile Managers</strong>, we help businesses build and maintain these online references so search engines — and real customers — get a clear, trustworthy picture of who you are and where you operate. Citations are a core piece of local SEO because they tell search engines where your business is located and what it actually does. When managed well, they also make it a lot easier for potential customers to find and contact you.
+                            At <Link to="/" className="link-hover">Google Business Profile Managers</Link>, we help businesses build and maintain these online references so search engines — and real customers — get a clear, trustworthy picture of who you are and where you operate. Citations are a core piece of local SEO because they tell search engines where your business is located and what it actually does. When managed well, they also make it a lot easier for potential customers to find and contact you.
                         </p>
                         <p className="text-lg text-slate-700 leading-relaxed">
                             Whether you're running a small neighbourhood shop, a professional service firm, a restaurant, a healthcare practice, or a business that covers multiple service areas, a structured citation strategy can genuinely support everything else you're doing for local SEO.
@@ -200,7 +200,7 @@ const BlogSection14 = () => {
 
                 <div className="section-divider my-16"></div>
 
-                {/* Section 2 */}
+                {/* Section 2*/}
                 <div className="section-container mb-20" data-animate>
                     <h2 className="text-4xl font-bold text-slate-900 mb-8 pb-4 border-b-2 border-blue-200">
                         What Are Local Business Citations, Exactly?
