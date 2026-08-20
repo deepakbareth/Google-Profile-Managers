@@ -25,6 +25,7 @@ const ServicesPage = lazy(() => import('./Pages/ServicesPage'));
 const SuccessStoriesPage = lazy(() => import('./Pages/SuccessStoriesPage'));
 const BlogsPage = lazy(() => import('./Pages/BlogsPage'));
 const BlogPostDetailPage = lazy(() => import('./Pages/BlogPostDetailPage'));
+const AuditGbpPage = lazy(() => import('./Pages/AuditGbpPage'));
 
 function App() {
   // Note: Removed the unused `navLinks` array to keep memory usage low and the file clean.
@@ -53,6 +54,7 @@ function App() {
           <Route path="/success-stories" element={<SuccessStoriesPage />} />
           <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/blogs/:slug" element={<BlogPostDetailPage />} />
+          <Route path="/audit-gbp" element={<AuditGbpPage />} />
         </Routes>
       </Suspense>
       <StickyMobileCTA />
